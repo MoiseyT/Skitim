@@ -20,12 +20,12 @@
     border-radius: 5px;
     border: 2px ridge #f3c846;
     background: #e35914;
-    background: linear-gradient(to top, #e35914, #e3e120)
+    background: linear-gradient(to top, #236076, #64d7ce);
 }
 
 .nav-button:hover {
     color: #ffffff;
     background: #0b5d7d;
-    background: linear-gradient(to top, #0b5d7d, #57e0b1);
+    background: linear-gradient(to top, #004484, #abf6ff);
 }
 
