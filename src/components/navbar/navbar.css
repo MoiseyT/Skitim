@@ -13,18 +13,19 @@
 
 
 .nav-button {
-    font-family: 'Lib';
-    font-size: 15px;
+    font-family: 'Comfortaa';
+    font-size: 23px;
     color: #ffffff;
-    padding: 15px 29px;
-    border-radius: 30px;
-    border: 0px ridge #f3c846;
-    background: #236076;
-    background: linear-gradient(to top, #df9021, #d4c83f);
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: 2px ridge #f3c846;
+    background: #e35914;
+    background: linear-gradient(to top, #e35914, #e3e120)
 }
 
 .nav-button:hover {
     color: #ffffff;
-    background: #004484;
-    background: linear-gradient(to top, #f66d52, #9e220a);
+    background: #0b5d7d;
+    background: linear-gradient(to top, #0b5d7d, #57e0b1);
 }
+
