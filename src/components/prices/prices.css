@@ -1,0 +1,13 @@
+.container_price {
+    display: flex;
+    justify-content: center; /* Выравнивание по горизонтали */
+    align-items: center; /* Выравнивание по вертикали */
+    height: 100px;
+    padding: 30px; /* Высота контейнера равна высоте видимой области окна */
+}
+
+.price-block {
+    border: 3px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
