@@ -1,20 +1,18 @@
 .container {
     position: relative;
     place-items: center;
-
 }
 
 .container img {
     display: block;
     justify-content: center;
     width: 100%;
-    border-radius: 15%;
 }
 
 .video-container {
     position: absolute;
     bottom: 30%;
-    right: 8%;
+    right: 1%;
     border: 50px #59b7e3;
     /* Толщина и цвет рамки */
     border-radius: 50px;

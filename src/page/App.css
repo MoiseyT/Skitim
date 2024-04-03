@@ -6,12 +6,12 @@ body {
     background-repeat: no-repeat;
     background-position: center;
         font-family: 'Lib', sans-serif;
+        padding: 0%;
 }
 
 .name_level {
     justify-content: center;
     align-items: center;
-    padding: 10px;
     width: 100%;
 }
 

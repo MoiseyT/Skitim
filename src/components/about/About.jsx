@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div class="container" id="about">
       <img src={About_img} alt="About_img" />
-      <video className="video-container" width= '250' height='450' controls autoPlay >
+      <video className="video-container" width= '350' height='500' controls autoPlay >
         <source src={Preview} type="video/mp4" />
         Ваш браузер не поддерживает видео тег.
       </video>
