@@ -1,19 +1,17 @@
-import React from 'react';
-import { Prices, About, Navbar, Training, Contacts, Footer } from './components';
-import './App.css';
 
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { Home } from './page/Home';
+import {Training_page} from './page/Training_page';
 
-const App = () => {
-  return (
-    <div className='App'>
-      <Navbar />
-      <About />
-      <Training />
-      <Prices />
-      <Contacts />
-      <Footer />
-    </div>
-  )
+function App () {
+return (
+  <Router>
+    <Routes>
+      <Route exact path = "/" element={<Home/>}/>
+      <Route exact path = "/Training_page" element={<Training_page/>}/>
+    </Routes>
+  </Router>
+)
 }
 
 export default App

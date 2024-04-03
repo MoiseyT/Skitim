@@ -1,22 +1,30 @@
-
-
 .navbar {
     display: flex;
-    justify-content: space-between;
+    background: none;
+    justify-content: space-around;
     align-items: center;
-    padding: 0;
- /* Примерный отступ для вашего Navbar */
-        /* global 92%+ browsers support *background: radial-gradient(circle at 50% 50%, rgba(3, 169, 244, 1) 0%, rgba(126, 240, 255, 1) 0%, rgba(126, 183, 255, 0.61) 100%); /* Цвет фона Navbar */
 }
 
-.center-logo img{
-    width: 200px; /* Устанавливает ширину логотипа */
+.center-logo img {
+    width: 150px;
+    /* Устанавливает ширину логотипа */
     height: auto;
-    padding: 20px;
 }
 
-.contacts, .price, .training, .about {
-    text-align: center;
-    padding: 20px;
 
+.nav-button {
+    font-family: 'Lib';
+    font-size: 15px;
+    color: #ffffff;
+    padding: 15px 29px;
+    border-radius: 30px;
+    border: 0px ridge #f3c846;
+    background: #236076;
+    background: linear-gradient(to top, #df9021, #d4c83f);
+}
+
+.nav-button:hover {
+    color: #ffffff;
+    background: #004484;
+    background: linear-gradient(to top, #f66d52, #9e220a);
 }

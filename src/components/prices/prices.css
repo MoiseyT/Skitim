@@ -1,5 +1,4 @@
 .container_price {
-    display: flex;
     justify-content: center; /* Выравнивание по горизонтали */
     align-items: center; /* Выравнивание по вертикали */
     height: 100px;
@@ -8,6 +7,7 @@
 
 .price-block {
     border: 3px solid #ccc;
+    border-radius: 15%;
     padding: 20px;
     text-align: center;
 }

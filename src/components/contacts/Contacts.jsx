@@ -1,52 +1,48 @@
-import React from 'react';
-import { useState } from 'react';
+// ContactForm.js
+import React, { useState } from 'react';
+import axios from 'axios';
 import './contacts.css';
-function Contacts() { 
+
+function Contacts() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
-  
-  const handleSubmit = (event) => {
-      event.preventDefault();
-      // Здесь вы можете обрабатывать отправку данных формы
-      console.log('Отправлено:', { name, email, message });
+  const [sent, setSent] = useState(false);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      await axios.post('https://formspree.io/f/xvoewyke', { name, email, message });
+      setSent(true);
+    } catch (error) {
+      console.error(error);
+    }
   };
 
   return (
-      <form onSubmit={handleSubmit}>
-          <div id="contacts">
-              <label htmlFor="name">Имя:</label>
-              <input
-                  type="text"
-                  id="name"
-                  value={name}
-                  onChange={(event) => setName(event.target.value)}
-                  required
-              />
+    <div id="contacts">
+      <h2>Contact Form</h2>
+      {sent ? (
+        <p>Thank you for your message! We'll get back to you soon.</p>
+      ) : (
+        <form onSubmit={handleSubmit}>
+          <div>
+            <label>Name:</label>
+            <input type="text" value={name} onChange={(e) => setName(e.target.value)} required />
           </div>
           <div>
-              <label htmlFor="email">Email:</label>
-              <input
-                  type="email"
-                  id="email"
-                  value={email}
-                  onChange={(event) => setEmail(event.target.value)}
-                  required
-              />
+            <label>Email:</label>
+            <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
           </div>
           <div>
-              <label htmlFor="message">Сообщение:</label>
-              <textarea
-                  id="message"
-                  value={message}
-                  onChange={(event) => setMessage(event.target.value)}
-                  required
-              />
+            <label>Message:</label>
+            <textarea value={message} onChange={(e) => setMessage(e.target.value)} required />
           </div>
-          <button type="submit">Отправить</button>
-      </form>
+          <button type="submit">Send</button>
+        </form>
+      )}
+    </div>
   );
 }
 
-export default Contacts
-
+export default Contacts;

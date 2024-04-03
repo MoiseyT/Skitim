@@ -1,21 +1,25 @@
 import React from 'react';
 import './training.css';
-
-import About_img from '../../assets/About.jpg';
+import Training_img from '../../assets/Training_img.png';
+import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
 
 
 const Training = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Устанавливаем позицию прокрутки в верхнее положение при монтировании компонента
+  }, []);
+
   return (
-    <div class="container" id="training">
-      <div className="image-container">
-        <img src={About_img} alt="About_img" />
+    <div class="container_training" id="container_training" >
+      <div className="image-container" id="image-container">
+        <img src={Training_img} alt="About_img" id="training" />
         <div className="button-container">
-          <a href="src/components/page/Page_training.js">
-            <button className='training_button'>Не нажимать!</button>
-          </a>
+            <button className='training_button'>
+            <Link to="/Training_page">К тренировкам</Link>
+            </button>
         </div>
       </div>
-      <div class="text">Обо мне: здесь я напишу немного о себе и будет моя фотография</div>
     </div>
   );
 }

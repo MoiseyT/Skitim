@@ -1,0 +1,15 @@
+.container_plan {
+    position:relative;
+    place-items: center;
+    justify-content: flex-end;
+    display: flex;
+    padding: 50px;
+}
+
+.container_plan img {
+    display:block;
+    justify-content: center;
+    width: 50%;
+    height: auto;
+    border-radius: 15%;
+}

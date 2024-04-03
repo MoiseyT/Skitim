@@ -1,0 +1,21 @@
+.Training_page,
+.home,
+body {
+    background: linear-gradient(0deg, rgba(5, 78, 96, 1) 0%, rgba(180, 224, 255, 1) 49%, rgba(209, 242, 255, 1) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+        font-family: 'Lib', sans-serif;
+}
+
+.name_level {
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'Lib';
+    src: url('./fonts/Libertinus/LibertinusSerifDisplay-Regular.otf') format('truetype');
+}
