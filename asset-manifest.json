@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/Skitim/static/css/main.2960a2f8.css",
-    "main.js": "/Skitim/static/js/main.db33918a.js",
+    "main.css": "/Skitim/static/css/main.ed006b80.css",
+    "main.js": "/Skitim/static/js/main.9b90f2c4.js",
     "static/media/Preview.mp4": "/Skitim/static/media/Preview.b3b8ba2ad4eb4add537c.mp4",
+    "static/media/About.jpg": "/Skitim/static/media/About.44da7923824f59150475.jpg",
     "static/media/Training_img.png": "/Skitim/static/media/Training_img.8b69a149acecb91ac639.png",
     "static/media/Profi.png": "/Skitim/static/media/Profi.e64989c061906a76f784.png",
     "static/media/Semiprofi.png": "/Skitim/static/media/Semiprofi.42ef76820b7c4d58f691.png",
@@ -12,15 +13,14 @@
     "static/media/Plan_img.png": "/Skitim/static/media/Plan_img.1163030036c8cb562f0d.png",
     "static/media/Amature.png": "/Skitim/static/media/Amature.d7549e3e1ae89f4463d4.png",
     "static/media/Winter.png": "/Skitim/static/media/Winter.db7d4f38a7fc4cb94d03.png",
-    "static/media/About.jpg": "/Skitim/static/media/About.c4d705ec71b907731197.jpg",
     "static/media/LibertinusSerifDisplay-Regular.otf": "/Skitim/static/media/LibertinusSerifDisplay-Regular.b99484a48a0afbe8967b.otf",
     "static/media/logo.png": "/Skitim/static/media/logo.fd7a19b0ed08079d0745.png",
     "index.html": "/Skitim/index.html",
-    "main.2960a2f8.css.map": "/Skitim/static/css/main.2960a2f8.css.map",
-    "main.db33918a.js.map": "/Skitim/static/js/main.db33918a.js.map"
+    "main.ed006b80.css.map": "/Skitim/static/css/main.ed006b80.css.map",
+    "main.9b90f2c4.js.map": "/Skitim/static/js/main.9b90f2c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.2960a2f8.css",
-    "static/js/main.db33918a.js"
+    "static/css/main.ed006b80.css",
+    "static/js/main.9b90f2c4.js"
   ]
 }
