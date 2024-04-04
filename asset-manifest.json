@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Skitim/static/css/main.9c60afab.css",
-    "main.js": "/Skitim/static/js/main.3bdedb5f.js",
+    "main.css": "/Skitim/static/css/main.ecfb4dce.css",
+    "main.js": "/Skitim/static/js/main.fb7f62bd.js",
     "static/media/Preview.mp4": "/Skitim/static/media/Preview.b3b8ba2ad4eb4add537c.mp4",
     "static/media/About.jpg": "/Skitim/static/media/About.44da7923824f59150475.jpg",
     "static/media/Training_img.png": "/Skitim/static/media/Training_img.8b69a149acecb91ac639.png",
@@ -16,11 +16,11 @@
     "static/media/LibertinusSerifDisplay-Regular.otf": "/Skitim/static/media/LibertinusSerifDisplay-Regular.b99484a48a0afbe8967b.otf",
     "static/media/logo.png": "/Skitim/static/media/logo.fd7a19b0ed08079d0745.png",
     "index.html": "/Skitim/index.html",
-    "main.9c60afab.css.map": "/Skitim/static/css/main.9c60afab.css.map",
-    "main.3bdedb5f.js.map": "/Skitim/static/js/main.3bdedb5f.js.map"
+    "main.ecfb4dce.css.map": "/Skitim/static/css/main.ecfb4dce.css.map",
+    "main.fb7f62bd.js.map": "/Skitim/static/js/main.fb7f62bd.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c60afab.css",
-    "static/js/main.3bdedb5f.js"
+    "static/css/main.ecfb4dce.css",
+    "static/js/main.fb7f62bd.js"
   ]
 }
