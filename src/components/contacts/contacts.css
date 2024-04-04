@@ -8,22 +8,42 @@
 
 label {
   display: block; 
+  font-family: 'Lib';
 /* Устанавливает блочный вид для названий */
 }
 
 h2 {
 /* Выравниваем текст по центру */
   color: navy;
-  text-align: center; /* Устанавливаем цвет текста */
+  text-align: center; 
+  font-size: 3vw; /* Устанавливаем цвет текста */
 }
 
 #Name, #Email, #Message {
-  text-align: center; /* Выравниваем текст по центру */
+  text-align: center;
+  font-size: 2vw; 
   color: navy; 
   padding: 3%;
   justify-content: space-between;
   align-items: center;
 }
 textarea-class {
-  height: 200px; /* Установите высоту в пикселях или другую единицу измерения */
+  height: 200px; 
+}
+
+#button_send {
+  width: 100%;
+  font-family: 'Lib';
+  font-size: 4vw;
+  color: #ffffff;
+  padding: 2vw 5vw;
+  border-radius: 5px;
+  border: 0px;
+  background: linear-gradient(to top, #236076, #64d7ce);
+}
+
+#button_send:hover {
+  color: #ffffff;
+  background: #0b5d7d;
+  background: linear-gradient(to top, #004484, #abf6ff);
 }

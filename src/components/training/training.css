@@ -9,7 +9,7 @@
 #image-container {
     display: block;
     justify-content: center;
-    width: 80%;
+    width: 100%;
     border-radius: 15%;
     padding: 30px;
 }
@@ -24,24 +24,27 @@
 
 .button-container {
     position: absolute;
-    bottom: 30%;
-    right: 40%;
+    bottom: 20%;
+    right: 4%;
 }
 
 .training_button {
     font-family: 'Lib';
-    font-size: 15px;
+    font-size: 4vw;
     color: #ffffff;
-    padding: 15px 29px;
-    border-radius: 30px;
-    border: 0px ridge #f3c846;
-    background: #236076;
+    padding: 2vw 5vw;
+    border-radius: 5px;
+    border: 2px;
     background: linear-gradient(to top, #236076, #64d7ce);
-    cursor: pointer;
 }
+
+.training_button > a {
+    text-decoration: none;
+    color: #ffffff;
+  }
 
 .training_button:hover {
     color: #ffffff;
-    background: #004484;
+    background: #0b5d7d;
     background: linear-gradient(to top, #004484, #abf6ff);
 }

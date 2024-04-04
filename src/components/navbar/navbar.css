@@ -13,14 +13,16 @@
 
 
 .nav-button {
+    margin-right: 5vw;
     font-family: 'Comfortaa';
     font-size: 23px;
     color: #ffffff;
-    padding: 15px 25px;
+    padding: 1vw 2vw;
     border-radius: 5px;
     border: 2px;
     background: #e35914;
     background: linear-gradient(to top, #236076, #64d7ce);
+    
 }
 
 .nav-button:hover {
@@ -29,3 +31,8 @@
     background: linear-gradient(to top, #004484, #abf6ff);
 }
 
+@media (min-width: 1100px) {
+    .nav-button {
+      margin-right: 1vw; /* Новое значение для больших экранов */
+    }
+}

@@ -42,7 +42,9 @@ function Contacts() {
             <textarea value={message} onChange={(e) => setMessage(e.target.value)} 
             style={{ height: '8vw', width: '25vw' }} required />
           </div>
+          <div className="button-sent-container">
           <button type="submit" id='button_send'>Отправить</button>
+          </div>
         </form>
       )}
     </div>
