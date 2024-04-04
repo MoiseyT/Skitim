@@ -18,7 +18,7 @@
     color: #ffffff;
     padding: 15px 25px;
     border-radius: 5px;
-    border: 2px ridge #f3c846;
+    border: 2px;
     background: #e35914;
     background: linear-gradient(to top, #236076, #64d7ce);
 }

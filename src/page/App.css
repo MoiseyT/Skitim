@@ -1,12 +1,15 @@
 .Training_page,
-.home,
+.home, #root,
 body {
     background: linear-gradient(0deg, rgba(5, 78, 96, 1) 0%, rgba(180, 224, 255, 1) 49%, rgba(209, 242, 255, 1) 100%);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
         font-family: 'Lib', sans-serif;
-        padding: 0%;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
 }
 
 .name_level {
