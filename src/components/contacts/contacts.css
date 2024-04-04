@@ -1,47 +1,29 @@
-.form-container {
-  max-width: 400px;
-  margin: 0 auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+#contacts {
+  width: 30%; /* Задаем ширину контактной формы */
+  margin: 0 auto; /* Устанавливаем автоматические отступы слева и справа, чтобы контактная форма была по центру */
+  padding: 1%; /* Добавляем небольшие внутренние отступы для контактной формы */
+  background-color: #f0f0f0; /* Задаем цвет фона контактной формы */
+  border-radius: 10px; /* Добавляем скругленные углы контактной форме */
 }
 
-.form-container h2 {
-  margin-bottom: 20px;
-  font-size: 24px;
-  color: #333;
+label {
+  display: block; 
+/* Устанавливает блочный вид для названий */
 }
 
-.form-container label {
-  display: block;
-  margin-bottom: 8px;
-  font-weight: bold;
+h2 {
+/* Выравниваем текст по центру */
+  color: navy;
+  text-align: center; /* Устанавливаем цвет текста */
 }
 
-.form-container input[type="text"],
-.form-container input[type="email"],
-.form-container textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+#Name, #Email, #Message {
+  text-align: center; /* Выравниваем текст по центру */
+  color: navy; 
+  padding: 3%;
+  justify-content: space-between;
+  align-items: center;
 }
-
-.form-container textarea {
-  height: 120px;
-}
-
-.form-container button[type="submit"] {
-  background-color: #007bff;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.form-container button[type="submit"]:hover {
-  background-color: #0056b3;
+textarea-class {
+  height: 200px; /* Установите высоту в пикселях или другую единицу измерения */
 }

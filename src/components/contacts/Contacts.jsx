@@ -21,24 +21,28 @@ function Contacts() {
 
   return (
     <div id="contacts">
-      <h2>Contact Form</h2>
+      <h2>Контактная форма</h2>
       {sent ? (
         <p>Thank you for your message! We'll get back to you soon.</p>
       ) : (
-        <form onSubmit={handleSubmit}>
-          <div>
-            <label>Name:</label>
-            <input type="text" value={name} onChange={(e) => setName(e.target.value)} required />
+        <form onSubmit={handleSubmit} className="form-group">
+          <div id="Name">
+            <label>Имя</label>
+            <input type="text" value={name} onChange={(e) => setName(e.target.value)} 
+            style={{ height: '2vw', width: '25vw' }} required />
           </div>
-          <div>
-            <label>Email:</label>
-            <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
+          <div id="Email">
+
+            <label>Email</label>
+            <input type="email" value={email} onChange={(e) => setEmail(e.target.value)}
+            style={{ height: '2vw', width: '25vw' }}  required />
           </div>
-          <div>
-            <label>Message:</label>
-            <textarea value={message} onChange={(e) => setMessage(e.target.value)} required />
+          <div id="Message">
+            <label>Сообщение</label>
+            <textarea value={message} onChange={(e) => setMessage(e.target.value)} 
+            style={{ height: '8vw', width: '25vw' }} required />
           </div>
-          <button type="submit">Send</button>
+          <button type="submit" id='button_send'>Отправить</button>
         </form>
       )}
     </div>
