@@ -1,11 +1,11 @@
 import React from 'react';
-import './training.css';
-import Training_img from '../../assets/Training_img.png';
+import './training_ru.css';
+import Training_img from '../../../../assets/Training_img.png';
 import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 
 
-const Training = () => {
+const Training_ru = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -16,12 +16,12 @@ const Training = () => {
         <img src={Training_img} alt="About_img" id="training" />
         <div className="button-container">
             <button className='training_button'>
-            <Link to="/Training_page">More</Link>
+            <Link to="/Training_page">К тренировкам</Link>
             </button>
         </div>
       </div>
     </div>
   );
 }
-export default Training
+export default Training_ru
 

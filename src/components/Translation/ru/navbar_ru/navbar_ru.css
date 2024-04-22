@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    background: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.center-logo img {
+    width: 10vw;
+    height: auto;
+}
+
+
+.nav-button {
+    cursor: pointer;
+    margin-right: 5vw;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 2vw;
+    color: #000000;
+    padding: 1vw 3vw;
+    border-radius: 20px;
+    border: 2px;
+    background: #FF9F00;
+    
+    
+}
+
+.nav-button:hover {
+    color: #ffffff;
+    background: #004484;
+}
+
+@media (min-width: 1100px) {
+    .nav-button {
+      margin-right: 1vw; /* Новое значение для больших экранов */
+    }
+}

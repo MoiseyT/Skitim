@@ -21,7 +21,7 @@ function Contacts() {
 
   return (
     <div id="contacts">
-      <h2>Контактная форма</h2>
+      <h2>Свяжитесь со мной</h2>
       {sent ? (
         <p>Thank you for your message! We'll get back to you soon.</p>
       ) : (

@@ -1,4 +1,4 @@
-.Training_page,
+.Training_page, .Training_page_ru
 .home,
 #root,
 body {
@@ -6,7 +6,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    font-family: 'Lib', sans-serif;
     padding: 0;
     margin: 0;
     width: 100%;
@@ -21,8 +20,8 @@ h1 {
     font-size: 4vw;
     margin-left: 23vw;
     border-radius: 3vw;
-    background-color: #FF9F00; /* Цвет рамки черный, ширина 2 пикселя */
-    padding: 2vw;
+    border: 0.5vw solid #004281;
+    padding: 1vw;
 }
 
 .name_level {
@@ -35,9 +34,4 @@ h1 {
     font-size: 15px;
     /* Установите желаемый вес шрифта */
     /* Дополнительные стили по желанию */
-}
-
-@font-face {
-    font-family: 'Lib';
-    src: url('./fonts/Libertinus/LibertinusSerifDisplay-Regular.otf') format('truetype');
 }
