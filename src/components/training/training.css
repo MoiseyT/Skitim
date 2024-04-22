@@ -21,15 +21,16 @@
 
 .button-container {
     position: absolute;
-    bottom: 10%;
+    bottom: 17%;
     right: 4%;
 }
 
 .training_button {
+    cursor: pointer;
     margin-right: 5vw;
     font-family: 'Arial';
     font-weight: bold;
-    font-size: 150%;
+    font-size: 4vw;
     color: #000000;
     padding: 1vw 2vw;
     border-radius: 20px;

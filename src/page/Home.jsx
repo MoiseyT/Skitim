@@ -9,6 +9,7 @@ export function Home () {
           <Navbar />
           <About />
           <Training />
+          <Prices />
           <Contacts />
           <Footer />
         </div>
