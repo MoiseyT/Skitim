@@ -8,7 +8,7 @@ export function Training_page() {
     <div className='Training_page'>
       <Navbar />
       <div class="name_level">
-      <h1>Тренировки для любого уровня в красивейших уголках Швейцарии</h1>
+      <h1>Тренировки для любого уровн в красивейших уголках Швейцарии</h1>
       </div>
       <Sport_level />
       <Slider_training />
