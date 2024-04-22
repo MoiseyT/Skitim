@@ -2,27 +2,34 @@
   width: 30%; /* Задаем ширину контактной формы */
   margin: 0 auto; /* Устанавливаем автоматические отступы слева и справа, чтобы контактная форма была по центру */
   padding: 1%; /* Добавляем небольшие внутренние отступы для контактной формы */
-  background-color: #f0f0f0; /* Задаем цвет фона контактной формы */
-  border-radius: 10px; /* Добавляем скругленные углы контактной форме */
+  background-color: #f0f0f0;
+  border-color: #FF9F00; /* Задаем цвет фона контактной формы */
+  border-radius: 10px; 
+    border: 2vw;/* Добавляем скругленные углы контактной форме */
 }
 
 label {
   display: block; 
-  font-family: 'Lib';
+  font-family: 'Arial';
+  font-weight: bold;
 /* Устанавливает блочный вид для названий */
 }
 
 h2 {
 /* Выравниваем текст по центру */
-  color: navy;
+  color: rgb(0, 0, 0);
+  font-family: 'Arial';
+  font-weight: bold;
   text-align: center; 
   font-size: 3vw; /* Устанавливаем цвет текста */
 }
 
 #Name, #Email, #Message {
   text-align: center;
+  font-family: 'Arial';
+  font-weight: bold;
   font-size: 2vw; 
-  color: navy; 
+  color: rgb(0, 0, 0); 
   padding: 3%;
   justify-content: space-between;
   align-items: center;
@@ -33,17 +40,17 @@ textarea-class {
 
 #button_send {
   width: 100%;
-  font-family: 'Lib';
-  font-size: 4vw;
-  color: #ffffff;
+  font-family: 'Arial';
+  font-weight: bold;
+  font-size: 3vw;
+  color: #000000;
   padding: 2vw 5vw;
-  border-radius: 5px;
-  border: 0px;
-  background: linear-gradient(to top, #236076, #64d7ce);
+  border-radius: 20px;
+  border: 2px;
+  background: #FF9F00;
 }
 
 #button_send:hover {
   color: #ffffff;
-  background: #0b5d7d;
-  background: linear-gradient(to top, #004484, #abf6ff);
+  background: #004484;
 }

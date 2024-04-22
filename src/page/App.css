@@ -1,15 +1,28 @@
 .Training_page,
-.home, #root,
+.home,
+#root,
 body {
     background: linear-gradient(0deg, rgba(5, 78, 96, 1) 0%, rgba(180, 224, 255, 1) 49%, rgba(209, 242, 255, 1) 100%);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-        font-family: 'Lib', sans-serif;
-        padding: 0;
-        margin: 0;
-        width: 100%;
-        height: 100%;
+    font-family: 'Lib', sans-serif;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    width: 50vw;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 4vw;
+    margin-left: 23vw;
+    border-radius: 3vw;
+    background-color: #FF9F00; /* Цвет рамки черный, ширина 2 пикселя */
+    padding: 2vw;
 }
 
 .name_level {
@@ -19,7 +32,8 @@ body {
     width: 100%;
     font-family: 'Arial';
     font-weight: bold;
-    font-size: 15px; /* Установите желаемый вес шрифта */
+    font-size: 15px;
+    /* Установите желаемый вес шрифта */
     /* Дополнительные стили по желанию */
 }
 
