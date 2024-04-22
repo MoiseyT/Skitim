@@ -3,7 +3,6 @@
     place-items: center;
     justify-content: center;
     display: flex;
-    padding: 25px;
 }
 
 #image-container {
@@ -11,7 +10,6 @@
     justify-content: center;
     width: 100%;
     border-radius: 15%;
-    padding: 30px;
 }
 
 #training {
@@ -19,32 +17,32 @@
     justify-content: center;
     width: 100%;
     height: auto;
-    border-radius: 15%;
 }
 
 .button-container {
     position: absolute;
-    bottom: 20%;
+    bottom: 10%;
     right: 4%;
 }
 
 .training_button {
-    font-family: 'Lib';
-    font-size: 4vw;
-    color: #ffffff;
-    padding: 2vw 5vw;
-    border-radius: 5px;
+    margin-right: 5vw;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 150%;
+    color: #000000;
+    padding: 1vw 2vw;
+    border-radius: 20px;
     border: 2px;
-    background: linear-gradient(to top, #236076, #64d7ce);
+    background: #FF9F00;
 }
 
 .training_button > a {
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
   }
 
 .training_button:hover {
     color: #ffffff;
-    background: #0b5d7d;
-    background: linear-gradient(to top, #004484, #abf6ff);
+    background: #004484;
 }

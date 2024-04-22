@@ -13,9 +13,14 @@ body {
 }
 
 .name_level {
+    text-align: center;
     justify-content: center;
     align-items: center;
     width: 100%;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 15px; /* Установите желаемый вес шрифта */
+    /* Дополнительные стили по желанию */
 }
 
 @font-face {

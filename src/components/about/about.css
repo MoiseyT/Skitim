@@ -1,6 +1,7 @@
 .container {
     position: relative;
     place-items: center;
+    width: 100%;
 }
 
 .container img {
@@ -20,6 +21,4 @@
     width: 25vw;
     height: 40vw;
     object-fit: cover;
-    /* Подогнать видео по размеру */
-
 }
