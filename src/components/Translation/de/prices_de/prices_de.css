@@ -1,0 +1,84 @@
+.container_price {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 5%;
+    width: 90%;
+}
+.block {
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 2vw;
+    border: 1vw solid #ffffff;
+    margin-bottom: 2vw;
+}
+.training_name {
+    display: flex;
+    justify-content: left;  /* Горизонтальное выравнивание по центру */
+    align-items: center; 
+    padding-left: 6%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+.description_button_block {
+    padding-left: 6%;
+    display: flex;
+    word-wrap: break-word;
+    margin-bottom: 2vw;
+    
+}
+
+.training_description{
+    text-align: left;
+    font-family: 'Arial';
+    font-size: 1.8vw;
+    width: 100vw;
+}
+.block_button {
+    text-align: left;
+    font-family: 'Arial';
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding-right: 1.5vw;
+}
+.price_size {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    font-family: 'Arial';
+    font-size: 2vw;
+    font-weight: bold;
+    line-height: 3vw;
+    margin-bottom: 1vw;
+}
+
+.bottom-right-button {
+    cursor: pointer;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 3vw;
+    color: #000000;
+    border-radius: 1vw;
+    border: 3px;
+    background: #FF9F00;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+}
+
+.bottom-right-button:hover {
+    color: #ffffff;
+    background: #004484;
+}
+

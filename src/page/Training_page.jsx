@@ -11,11 +11,9 @@ export function Training_page() {
       <h1>Training in the beauteful</h1>
       </div>
       <Slider_training />
-      <h1>Price</h1>
           <Prices />
       <Plan />
       <div class="name_level">
-      <h1>Welocme to Ski Tim!</h1>
       </div>
       <Contacts />
       <Link to={"/"}>Домой</Link>

@@ -1,9 +1,9 @@
 import React from 'react';
-import './prices.css';
+import './prices_de.css';
 
-const Prices = () => {
+const Prices_de = () => {
 
-  const navContacts = [{ text: "Contact me", href: "#contacts_en" }];
+  const navContacts = [{ text: "anmelden", href: "#contacts" }];
 
   const scrollToContacts = (href) => {
     const element = document.getElementById(href.substring(1));
@@ -14,7 +14,7 @@ const Prices = () => {
 
   const renderTrainingBlock = ({ name, description, price }) => {
     return (
-      <div className="block" id = 'price_en'>
+      <div className="block">
         <div className="training_name">{name}</div>
         <div className='description_button_block'>
           <div className="training_description">{description}</div>
@@ -37,8 +37,8 @@ const Prices = () => {
 
   const trainingData = [
     {
-      name: 'Individual training',
-      description: 'The trainer will create a training program, taking into account your parameters and supports motivation, controls technique',
+      name: 'Индивидуальная тренировка',
+      description: 'Тренер составит программу занятий, учитывая ваши параметры и целиОн поддерживает мотивацию, контролирует технику',
       price: (
         <>
           60 min - 90 CHF
@@ -48,8 +48,8 @@ const Prices = () => {
       ),
     },
     {
-      name: 'Family training',
-      description: 'For donkeys, beavers, wild boars, etc. If you come with a bob, you will get a 100% discount!',
+      name: 'Семейная тренировка',
+      description: 'Для ослов, бобров, кабанов и т.д. Если Вы придете с бобом, то Вам скидка - 100 %!',
       price: (
         <>
           60 min - 150 CHF
@@ -71,4 +71,4 @@ const Prices = () => {
   );
 }
 
-export default Prices
+export default Prices_de

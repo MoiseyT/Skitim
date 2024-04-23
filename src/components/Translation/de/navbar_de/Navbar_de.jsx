@@ -1,15 +1,16 @@
 import React from 'react';
-import './navbar.css';
-import logo from '../../assets/logo.png';
+import './navbar_de.css';
+import logo_ru from '../../../../assets/logo.png';
 import { Link } from 'react-router-dom';
 
-function Navbar() {
+function Navbar_de() {
     const navItems = [
-        { text: "About", href: "#about" },
-        { text: "Training", href: "#training" },
-        { text: "Price", href: "#price_en" },
-        { text: "Contact", href: "#contacts_en" }
+        { text: "Über mich", href: "#about" },
+        { text: "Infos", href: "#training" },
+        { text: "Preis", href: "#price" },
+        { text: "Kontakt", href: "#contacts" }
     ];
+
 
     const scrollToComponent = (href) => {
         const element = document.getElementById(href.substring(1));
@@ -19,9 +20,9 @@ function Navbar() {
     };
 
     return (
-        <div className="navbar">
+        <div className="navbar_de">
             <div className="center-logo">
-                <img src={logo} alt="Logo" />
+                <img src={logo_ru} alt="Logo" />
             </div>
             {navItems.map((item, index) => (
                 <div key={index} className="nav-item">
@@ -35,12 +36,12 @@ function Navbar() {
             ))
             }
             <div className="languages">
-                <button className="en_button_language_en"><Link to="/">EN</Link></button>
-                <button className="en_button_language_de"><Link to="/Home_de">DE</Link></button>
-                <button className="en_button_language_ru"><Link to="/Home_ru">RU</Link></button>
+                <button className="de_button_language_en"><Link to="/">EN</Link></button>
+                <button className="de_button_language_de"><Link to="/Home_de">DE</Link></button>
+                <button className="de_button_language_ru"><Link to="/Home_ru">RU</Link></button>
             </div>
         </div>
     );
 }
 
-export default Navbar;
+export default Navbar_de;

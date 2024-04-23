@@ -21,7 +21,15 @@ h1 {
     margin-left: 23vw;
     border-radius: 3vw;
     border: 0.5vw solid #004281;
-    padding: 1vw;
+}
+
+h3 {
+    text-align: left;
+    width: 50vw;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 3vw;
+    margin-left: 3vw;
 }
 
 .name_level {

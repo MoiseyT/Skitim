@@ -9,10 +9,8 @@ export function Home () {
           <Navbar />
           <About />
           <Training />
-          <h1>Цены на тренировки</h1>
           <Prices />
           <Contacts />
-          <Footer />
         </div>
       )
 }

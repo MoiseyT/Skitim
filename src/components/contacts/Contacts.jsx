@@ -2,6 +2,10 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import './contacts.css';
+import Me from '../../assets/Me.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faWhatsapp, faTelegram, faInstagram } from '@fortawesome/free-brands-svg-icons';
+
 
 function Contacts() {
   const [name, setName] = useState('');
@@ -20,33 +24,47 @@ function Contacts() {
   };
 
   return (
-    <div id="contacts">
-      <h2>Свяжитесь со мной</h2>
-      {sent ? (
-        <p>Thank you for your message! We'll get back to you soon.</p>
-      ) : (
-        <form onSubmit={handleSubmit} className="form-group">
-          <div id="Name">
-            <label>Имя</label>
-            <input type="text" value={name} onChange={(e) => setName(e.target.value)} 
-            style={{ height: '2vw', width: '25vw' }} required />
-          </div>
-          <div id="Email">
-
-            <label>Email</label>
-            <input type="email" value={email} onChange={(e) => setEmail(e.target.value)}
-            style={{ height: '2vw', width: '25vw' }}  required />
-          </div>
-          <div id="Message">
-            <label>Сообщение</label>
-            <textarea value={message} onChange={(e) => setMessage(e.target.value)} 
-            style={{ height: '8vw', width: '25vw' }} required />
-          </div>
-          <div className="button-sent-container">
-          <button type="submit" id='button_send'>Отправить</button>
-          </div>
-        </form>
-      )}
+    <div className='contact_container'>
+      <div id='contacts_en'>
+        <h3>Contact me</h3>
+        {sent ? (
+          <p>Thank you for your message! We'll get back to you soon.</p>
+        ) : (
+          <form onSubmit={handleSubmit} className="form-group">
+            <div>
+              <input id="Name_textarea_en" type="text" value={name} onChange={(e) => setName(e.target.value)}
+                 placeholder="Name" required />
+            </div>
+            <div >
+              <input id="Email_textarea_en" type="email" value={email} onChange={(e) => setEmail(e.target.value)}
+                 placeholder="Email" required />
+            </div>
+            <div>
+              <textarea id="Message_textarea_en" value={message} onChange={(e) => setMessage(e.target.value)}
+                 placeholder="Message" required />
+            </div>
+            <div className="button-sent-container_en">
+              <button type="submit" id='button_send_en'>Send</button>
+            </div>
+          </form>
+        )}
+      </div>
+      <div className='contact_final_description_en'>
+        <div className='contact_final_description_text1_en'>
+          Prepare your ass for adventure
+        </div>
+        <div className='icons'>
+          <a id='Whatsapp' href="https://api.whatsapp.com/send?phone=0765444634" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faWhatsapp} style={{ color: '#25D366' }} />
+          </a>
+          <a id='Telegram' href="https://t.me/tdmoiseev" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faTelegram} style={{ color: '#0088cc' }} />
+          </a>
+          <a id='Instagram' href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faInstagram} style={{ color: '#E4405F' }} />
+          </a>
+        </div>
+        <h2>Ski Tim</h2></div>
     </div>
   );
 }

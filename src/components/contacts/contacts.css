@@ -1,11 +1,11 @@
-#contacts {
-  width: 30%; /* Задаем ширину контактной формы */
-  margin: 0 auto; /* Устанавливаем автоматические отступы слева и справа, чтобы контактная форма была по центру */
-  padding: 1%; /* Добавляем небольшие внутренние отступы для контактной формы */
-  background-color: #f0f0f0;
-  border-color: #FF9F00; /* Задаем цвет фона контактной формы */
-  border-radius: 10px; 
-    border: 2vw;/* Добавляем скругленные углы контактной форме */
+.contact_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#contacts_en {
+  border-color: #FF9F00;
+  border: 2vw;
 }
 
 label {
@@ -24,33 +24,82 @@ h2 {
   font-size: 3vw; /* Устанавливаем цвет текста */
 }
 
-#Name, #Email, #Message {
-  text-align: center;
+
+#Name_textarea_en, #Email_textarea_en  {
+  height: 2vw;
+  width: 80%;
+  border: none;
+  border-bottom: 0.3vw solid #000000; /* Граница снизу */
+  padding-bottom: 1vw;
+  margin-bottom: 1vw;
+  margin-left: 1vw;
+  text-align: left;
+  font-family: 'Arial';
+  font-weight: bold;
+  font-size: 2vw;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#Message_textarea_en {
+  height: 8vw;
+  width: 80%;
+  border: none;
+  margin-left: 1vw;
+  text-align: left;
   font-family: 'Arial';
   font-weight: bold;
   font-size: 2vw; 
-  color: rgb(0, 0, 0); 
-  padding: 3%;
-  justify-content: space-between;
-  align-items: center;
-}
-textarea-class {
-  height: 200px; 
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
-#button_send {
-  width: 100%;
+#Message_textarea_en::placeholder, #Name_textarea_en::placeholder, #Email_textarea_en::placeholder {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.contact_final_description_en {
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icons {
+  font-size: 6vw;
+  margin: 1vw;
+}
+
+.contact_final_description_text1_en {
+  font-size: 3vw;
+  margin: 1vw;
+}
+#Whatsapp, #Telegram, #Instagram {
+  margin: 1.5vw;
+}
+.button-sent-container_en {
+  display: flex;
+  justify-content: right; 
+  width: 45vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+#button_send_en {
+  display: flex;
+  justify-content: center; 
+  width: 50%;
   font-family: 'Arial';
   font-weight: bold;
-  font-size: 3vw;
+  font-size: 4vw;
   color: #000000;
-  padding: 2vw 5vw;
-  border-radius: 20px;
+  padding: 1vw 1vw;
+  margin-right: 1vw;
+  border-radius: 2vw;
   border: 2px;
   background: #FF9F00;
 }
 
-#button_send:hover {
+#button_send_en:hover {
+  cursor: pointer;
   color: #ffffff;
   background: #004484;
 }
+

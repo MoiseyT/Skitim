@@ -20,7 +20,7 @@ function Navbar_ru() {
     };
 
     return (
-        <div className="navbar">
+        <div className="navbar_ru">
             <div className="center-logo">
                 <img src={logo_ru} alt="Logo" />
             </div>
@@ -36,9 +36,9 @@ function Navbar_ru() {
             ))
             }
             <div className="languages">
-                <button className="button_language_en">EN</button>
-                <button className="button_language_de">DE</button>
-                <button className="button_language_ru"><Link to="/Training_page_ru">RU</Link></button>
+                <button className="ru_button_language_en"><Link to="/">EN</Link></button>
+                <button className="ru_button_language_de"><Link to="/Home_de">DE</Link></button>
+                <button className="ru_button_language_ru"><Link to="/Home_ru">RU</Link></button>
             </div>
         </div>
     );

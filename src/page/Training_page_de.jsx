@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
 import { Link } from 'react-router-dom';
-import { Navbar_ru, Plan, Contacts_ru, Slider_training, Prices_ru } from '../components';
+import { Navbar_ru, Plan, Contacts, Slider_training, Prices } from '../components';
 
-export function Training_page_ru() {
+export function Training_page_de() {
   return (
     <div className='Training_page'>
       <Navbar_ru />
@@ -12,12 +12,12 @@ export function Training_page_ru() {
       </div>
       <Slider_training />
       <h1>Цены на тренировки</h1>
-      <Prices_ru />
+          <Prices />
       <Plan />
       <div class="name_level">
       <h1>Добро пожаловать в Ski Tim!</h1>
       </div>
-      <Contacts_ru />
+      <Contacts />
       <Link to={"/"}>Домой</Link>
 
     </div>
