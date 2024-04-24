@@ -3,13 +3,23 @@
     place-items: center;
     justify-content: center;
     display: flex;
+    flex-wrap: wrap;
 }
 
 #image-container {
+    z-index: 1;
+    max-width: 100%;
     display: block;
     justify-content: center;
     width: 100%;
-    border-radius: 15%;
+}
+
+#image-container img {
+    z-index: 1;
+    max-width: 100%;
+    display: block;
+    justify-content: center;
+    width: 100%;
 }
 
 #training {
@@ -21,8 +31,8 @@
 
 .button-container {
     position: absolute;
-    bottom: 17%;
-    right: 4%;
+    bottom: 7vw;
+    right: 7vw;
 }
 
 .training_button {
@@ -33,17 +43,50 @@
     font-size: 4vw;
     color: #000000;
     padding: 1vw 2vw;
-    border-radius: 20px;
+    border-radius: 2vw;
     border: 2px;
     background: #FF9F00;
 }
 
-.training_button > a {
+.training_button>a {
     text-decoration: none;
     color: #000000;
-  }
+}
 
 .training_button:hover {
     color: #ffffff;
     background: #004484;
+}
+
+
+.training-row {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    bottom: 44vw;
+    justify-content: space-between;
+    margin: 2vw;
+}
+
+.training-item {
+    z-index: 2;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    padding-bottom: 20vw;
+    padding-top: 6vw;
+    margin: 2.3vw;
+    border: 1vw solid #FF9F00;
+    border-radius: 4vw;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.training-icon {
+    position: relative;
+    top: -3vw;
+    width: 5vw;
+    height: 5vw;
 }

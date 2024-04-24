@@ -20,8 +20,6 @@ export function Training_page() {
       <Prices />
       <Contacts />
       <ScrollToTopButton />
-      <Link to={"/"}>Домой</Link>
-
     </div>
   );
 }

@@ -27,7 +27,7 @@ const Thumbnail = ({ arr, image, index }) => {
   </div>)
 }
 
-const Slideshow = ({ imgs, Icones }) => {
+const Slideshow = ({ imgs, Icones, texts }) => {
   const [index, setIndex] = useState(0)
 
   useEffect(() => {
@@ -51,8 +51,9 @@ const Slideshow = ({ imgs, Icones }) => {
 
 
   return (
-    <div id='slider' className="slideshow">
-      <img className="mainImg" src={imgs[index]} />
+    <div className="slideshow">
+      <img className="mainImg" src={imgs[index]} alt={`Image ${index}`} />
+      <span style={{ whiteSpace: 'pre-line' }} className="image-text">{texts[index]}</span>
       <div className="actions">
         <button onClick={prev}>&#10094;</button>
         <button onClick={next}>&#10095;</button>
@@ -67,19 +68,44 @@ const Slideshow = ({ imgs, Icones }) => {
 function Slider_training() {
   return (
     <div>
+      <Slideshow
+        imgs={[Winter, Spring, Summer, Autumn]}
+        Icones={[Winter_icon, Spring_icon, Summer_icon, Autumn_icon]}
+        texts={[`
+      ✔ Покупайте самолепные пельмени!
 
-      <Slideshow imgs={[
-        Winter,
-        Spring,
-        Summer,
-        Autumn,
-      ]}
-        Icones={[
-          Winter_icon,
-          Spring_icon,
-          Summer_icon,
-          Autumn_icon,
-        ]}
+      ✔ Это вкусно и сытно!
+
+      ✔ Варите пельмени правильно!
+
+      ✔ Уделите внимание тесту!
+    `,
+          `
+    ✔ Покупайте качественные корма!
+    
+    ✔ Прогуливайтесь с собакой каждый день!
+  
+    ✔ Уделяйте внимание обучению и играм!
+  
+    ✔ Регулярно проверяйте здоровье!
+  `, `
+  ✔ Используйте свежемолотый кофе!
+  
+  ✔ Не переживайте кофе!
+  
+  ✔ Научитесь правильно варить кофе!
+  
+  ✔ Открывайте для себя новые сорта!
+`,
+          `
+✔ Читайте разнообразные жанры!
+
+✔ Находите время для чтения каждый день!
+
+✔ Обменивайтесь книгами с друзьями!
+
+✔ Посещайте литературные встречи!
+`]}
       />
     </div>
   );
