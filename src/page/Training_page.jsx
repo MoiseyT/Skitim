@@ -1,16 +1,25 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import { Link } from 'react-router-dom';
-import { Navbar, Plan, Contacts, Slider_training, Prices } from '../components';
+import { Navbar, Contacts, Slider_training, Prices, Our_pluses, ScrollToTopButton } from '../components';
+
+
+
 
 export function Training_page() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
-    <div className='Training_page'>
+    <div id='top_training_page' className='Training_page'>
       <Navbar />
       <Slider_training />
+      <Our_pluses />
       <Prices />
-      <Plan />
       <Contacts />
+      <ScrollToTopButton />
       <Link to={"/"}>Домой</Link>
 
     </div>

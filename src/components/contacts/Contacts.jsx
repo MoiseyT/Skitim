@@ -2,10 +2,10 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import './contacts.css';
-import Me from '../../assets/Me.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp, faTelegram, faInstagram } from '@fortawesome/free-brands-svg-icons';
-
+import logo from '../../assets/logo.png';
+import { Link } from 'react-router-dom';
 
 function Contacts() {
   const [name, setName] = useState('');
@@ -33,15 +33,15 @@ function Contacts() {
           <form onSubmit={handleSubmit} className="form-group">
             <div>
               <input id="Name_textarea_en" type="text" value={name} onChange={(e) => setName(e.target.value)}
-                 placeholder="Name" required />
+                placeholder="Name" required />
             </div>
             <div >
               <input id="Email_textarea_en" type="email" value={email} onChange={(e) => setEmail(e.target.value)}
-                 placeholder="Email" required />
+                placeholder="Email" required />
             </div>
             <div>
               <textarea id="Message_textarea_en" value={message} onChange={(e) => setMessage(e.target.value)}
-                 placeholder="Message" required />
+                placeholder="Message" required />
             </div>
             <div className="button-sent-container_en">
               <button type="submit" id='button_send_en'>Send</button>
@@ -64,7 +64,9 @@ function Contacts() {
             <FontAwesomeIcon icon={faInstagram} style={{ color: '#E4405F' }} />
           </a>
         </div>
-        <h2>Ski Tim</h2></div>
+        <div className="center-logo-bottom">
+          <img src={logo} alt="Logo" />
+        </div></div>
     </div>
   );
 }

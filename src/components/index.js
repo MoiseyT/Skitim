@@ -7,6 +7,8 @@ export {default as Training} from './training/Training';
 export {default as Slider_training} from './slider_training/Slider_training';
 export {default as Sport_level} from './sport_level/Sport_level';
 export {default as Plan} from './plan_final/Plan';
+export {default as Our_pluses} from './our_pluses/Our_pluses';
+export {default as ScrollToTopButton} from './scrollToTopButton/ScrollToTopButton';
 
 export {default as Navbar_ru} from './Translation/ru/navbar_ru/Navbar_ru';
 export {default as Training_ru} from './Translation/ru/training_ru/Training_ru';

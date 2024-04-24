@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './slider_training.css';
+
 import Winter from '../../assets/Winter.png';
 import Spring from '../../assets/Spring.png';
 import Summer from '../../assets/Summer.png';
@@ -50,7 +51,7 @@ const Slideshow = ({ imgs, Icones }) => {
 
 
   return (
-    <div className="slideshow">
+    <div id='slider' className="slideshow">
       <img className="mainImg" src={imgs[index]} />
       <div className="actions">
         <button onClick={prev}>&#10094;</button>
@@ -66,19 +67,19 @@ const Slideshow = ({ imgs, Icones }) => {
 function Slider_training() {
   return (
     <div>
-      
+
       <Slideshow imgs={[
         Winter,
         Spring,
         Summer,
         Autumn,
       ]}
-                Icones ={[
-        Winter_icon,
-        Spring_icon, 
-        Summer_icon,
-        Autumn_icon,
-      ]}
+        Icones={[
+          Winter_icon,
+          Spring_icon,
+          Summer_icon,
+          Autumn_icon,
+        ]}
       />
     </div>
   );

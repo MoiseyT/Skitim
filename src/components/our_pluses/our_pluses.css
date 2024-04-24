@@ -1,0 +1,34 @@
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.grid-row {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 3vw;
+}
+
+.grid-item {
+    padding: 5vw;
+    border: 1vw solid #FF9F00;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.icon {
+    position: relative;
+    top: -3vw;
+    width: 5vw;
+    height: 5vw;
+}
+
+.text {
+    margin-top: 1vw;
+    font-family: 'Arial';
+    font-size: 1.5vw;
+}

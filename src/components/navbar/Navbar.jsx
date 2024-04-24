@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
     const navItems = [
-        { text: "About", href: "#about" },
-        { text: "Training", href: "#training" },
-        { text: "Price", href: "#price_en" },
-        { text: "Contact", href: "#contacts_en" }
+        { text: "About", href: "#about", type: "container" },
+        { text: "Training", to: "/Training_page", type: "page" },
+        { text: "Price", href: "#price_en", type: "container"},
+        { text: "Contact", href: "#contacts_en", type: "container"}
     ];
 
     const scrollToComponent = (href) => {
@@ -25,13 +25,19 @@ function Navbar() {
             </div>
             {navItems.map((item, index) => (
                 <div key={index} className="nav-item">
+                {item.type === "page" ? (
+                    <Link to={item.to} className="nav-button">
+                        {item.text}
+                    </Link>
+                ) : (
                     <button
                         className="nav-button"
                         onClick={() => scrollToComponent(item.href)}
                     >
                         {item.text}
                     </button>
-                </div>
+                )}
+            </div>
             ))
             }
             <div className="languages">

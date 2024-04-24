@@ -26,7 +26,7 @@
 
 .actions {
   position: relative;
-  top: -20vw;
+  top: -19vw;
   display: flex;
   justify-content: space-between;
   position: relative;
@@ -63,8 +63,8 @@
 }
 
 .thumbnail-img {
-  width: 6vw;
-  height: 6vw;
+  width: 4vw;
+  height: 4vw;
   border: 0.5vw solid transparent; /* прозрачная граница */
   cursor: pointer;
   border-radius: 2vw;

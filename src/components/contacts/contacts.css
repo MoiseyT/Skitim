@@ -103,3 +103,10 @@ h2 {
   background: #004484;
 }
 
+.center-logo-bottom img {
+  border-radius: 1vw;
+  padding: 1vw;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 10vw;
+  height: auto;
+}
