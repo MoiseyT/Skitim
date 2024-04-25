@@ -1,29 +1,38 @@
 {
   "files": {
-    "main.css": "/Skitim/static/css/main.89b925f1.css",
-    "main.js": "/Skitim/static/js/main.0390a623.js",
+    "main.css": "/Skitim/static/css/main.95a737e2.css",
+    "main.js": "/Skitim/static/js/main.f8227685.js",
     "static/media/Preview.mp4": "/Skitim/static/media/Preview.b3b8ba2ad4eb4add537c.mp4",
     "static/media/Training_img.png": "/Skitim/static/media/Training_img.211e74f5cdf7d7f31859.png",
     "static/media/Plan_img.png": "/Skitim/static/media/Plan_img.1163030036c8cb562f0d.png",
     "static/media/Amature.png": "/Skitim/static/media/Amature.d7549e3e1ae89f4463d4.png",
     "static/media/Profi.png": "/Skitim/static/media/Profi.5f109526b98a7af06334.png",
     "static/media/Semiprofi.png": "/Skitim/static/media/Semiprofi.c99b1a48145be579c150.png",
+    "static/media/About.jpg": "/Skitim/static/media/About.d5cedeec3029d4de983c.jpg",
     "static/media/Summer.png": "/Skitim/static/media/Summer.49d5ae12b69561ff5a38.png",
     "static/media/Spring.png": "/Skitim/static/media/Spring.565fa2d39eb676bf5c13.png",
     "static/media/Autumn.png": "/Skitim/static/media/Autumn.e9c9aa0def8483af32d7.png",
     "static/media/Winter.png": "/Skitim/static/media/Winter.9e233cd289b7c9dc15da.png",
-    "static/media/About.jpg": "/Skitim/static/media/About.ee83b2e7b3fc17af7fb1.jpg",
-    "static/media/logo.png": "/Skitim/static/media/logo.fd7a19b0ed08079d0745.png",
+    "static/media/logo.png": "/Skitim/static/media/logo.1fa3f36e602a07ebf9f3.png",
+    "static/media/Longpartnership.png": "/Skitim/static/media/Longpartnership.8ca1f169d81e12a2464b.png",
+    "static/media/Trail_running.png": "/Skitim/static/media/Trail_running.0bdbe0ff303cbfc3fc18.png",
     "static/media/flower.png": "/Skitim/static/media/flower.24f1a3ca1e67998f10d5.png",
+    "static/media/World_map.png": "/Skitim/static/media/World_map.d7a64bc16de176a5565a.png",
+    "static/media/Gears.png": "/Skitim/static/media/Gears.b39e266501cecfbfa4c2.png",
+    "static/media/Smile.png": "/Skitim/static/media/Smile.953a833abbdd8904d7e3.png",
     "static/media/Snowflake.png": "/Skitim/static/media/Snowflake.76905fc9fbda145fa694.png",
     "static/media/Blat.png": "/Skitim/static/media/Blat.c912893d8a956bb36055.png",
+    "static/media/Planning.png": "/Skitim/static/media/Planning.f1be45d23c84de15f9c6.png",
     "static/media/Sun.png": "/Skitim/static/media/Sun.4e65bf32ec5153cbdc22.png",
+    "static/media/Variability.png": "/Skitim/static/media/Variability.212f97e00504ff9aabaf.png",
+    "static/media/Connection.png": "/Skitim/static/media/Connection.f73a2d3bb78672c1504a.png",
+    "static/media/Snow_tree.png": "/Skitim/static/media/Snow_tree.0b6587e081622aee76bd.png",
     "index.html": "/Skitim/index.html",
-    "main.89b925f1.css.map": "/Skitim/static/css/main.89b925f1.css.map",
-    "main.0390a623.js.map": "/Skitim/static/js/main.0390a623.js.map"
+    "main.95a737e2.css.map": "/Skitim/static/css/main.95a737e2.css.map",
+    "main.f8227685.js.map": "/Skitim/static/js/main.f8227685.js.map"
   },
   "entrypoints": [
-    "static/css/main.89b925f1.css",
-    "static/js/main.0390a623.js"
+    "static/css/main.95a737e2.css",
+    "static/js/main.f8227685.js"
   ]
 }
