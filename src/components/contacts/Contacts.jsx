@@ -26,7 +26,7 @@ function Contacts() {
   return (
     <div className='contact_container'>
       <div id='contacts_en'>
-        <h3>Contact me</h3>
+        <h3 className='contact_me'>Contact me</h3>
         {sent ? (
           <p>Thank you for your message! We'll get back to you soon.</p>
         ) : (
@@ -51,7 +51,7 @@ function Contacts() {
       </div>
       <div className='contact_final_description_en'>
         <div className='contact_final_description_text1_en'>
-          Prepare your ass for adventure
+        Наслаждайся тренировками на свежем воздухе вместе со мной!
         </div>
         <div className='icons'>
           <a id='Whatsapp' href="https://api.whatsapp.com/send?phone=0765444634" target="_blank" rel="noopener noreferrer">

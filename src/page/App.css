@@ -1,5 +1,5 @@
-.Training_page, .Training_page_ru
-.home,
+.Training_page,
+.Training_page_ru .home,
 #root,
 body {
     background: linear-gradient(0deg, rgba(5, 78, 96, 1) 0%, rgba(180, 224, 255, 1) 49%, rgba(209, 242, 255, 1) 100%);
@@ -13,17 +13,21 @@ body {
 }
 
 h1 {
-    text-align: center;
-    width: 50vw;
+    margin-left: -1vw;
+    margin-top: -2vw;
+    position: absolute;
     font-family: 'Arial';
-    font-weight: bold;
-    font-size: 4vw;
-    margin-left: 23vw;
-    border-radius: 3vw;
-    border: 0.5vw solid #004281;
+    font-weight: 700;
+    font-size: 3vw;
+    color: #ffffff;
+    top: 5vw;
+    left: 5vw;
+    border-radius: 5px;
+    z-index: 1;
 }
 
 h3 {
+
     text-align: left;
     width: 50vw;
     font-family: 'Arial';
@@ -42,4 +46,19 @@ h3 {
     font-size: 15px;
     /* Установите желаемый вес шрифта */
     /* Дополнительные стили по желанию */
+}
+
+.homepage_price {
+    display: flex;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 3vw;
+    justify-content: center;
+    align-items: center;
+    margin-left: 36.7vw;
+    width: 20vw;
+    text-align: center;
+    padding: 2vw;
+    border: 0.5vw solid #FF9F00;
+    border-radius: 4vw;
 }

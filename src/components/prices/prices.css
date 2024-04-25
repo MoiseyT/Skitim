@@ -1,9 +1,10 @@
 .container_price {
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
-    padding: 5vw;
-    width: 90%;
+    padding-top: 1vw;
+    padding-left: 7vw;
+    width: 85%;
+    overflow-y: auto;
 }
 .block {
     justify-content: space-between;

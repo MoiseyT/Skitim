@@ -2,6 +2,7 @@
     position: relative;
     place-items: center;
     width: 100%;
+    overflow-y: auto;
 }
 
 .container img {
@@ -13,12 +14,70 @@
 .video-container {
     position: absolute;
     bottom: 30%;
-    right: 1%;
+    right: 1vw;
     border: 5vw #59b7e3;
     /* Толщина и цвет рамки */
     border-radius: 5vw;
-    padding-right: 2px;
+    padding-right: 1vw;
+    padding-bottom: 1.2vw;
     width: 25vw;
     height: 40vw;
     object-fit: cover;
+}
+
+.title {
+    margin-left: -1vw;
+    margin-top: -4.5vw;
+    position: absolute;
+    font-family: 'Arial';
+    font-weight: 700;
+    font-size: 4vw;
+    color: #ffffff;
+    top: 5vw;
+    left: 5vw;
+    border-radius: 5px;
+    z-index: 1;
+    /* Чтобы title был поверх других элементов */
+}
+.my_info li::before {
+    content: "✔"; /* Ваш выбранный символ */
+    margin-right: 2vw;
+}
+.my_info {
+    list-style-type: none;
+    overflow-wrap: break-word;
+    margin-left: 1vw;
+    margin-top: 7vw;
+    position: absolute;
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 2vw;
+    font-weight: bold;
+    color: #000000;
+    top: 5vw;
+    left: 5vw;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.my_info li {
+    margin-bottom: 2vw;
+    /* Увеличенный отступ */
+}
+
+.my_info_more {
+    width: 50vw;
+    overflow-wrap: break-word;
+    margin-left: 1vw;
+    margin-top: 31vw;
+    position: absolute;
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 2vw;
+    color: #ffffff;
+    top: 5vw;
+    left: 5vw;
+    border-radius: 5px;
+    z-index: 1;
+    /* Чтобы title был поверх других элементов */
 }

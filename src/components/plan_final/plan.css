@@ -4,6 +4,7 @@
     justify-content: flex-end;
     display: flex;
     padding: 50px;
+    overflow-y: auto;
 }
 
 .container_plan img {

@@ -1,0 +1,10 @@
+.footer_text {
+    padding-top: 2vw;
+    padding-bottom: 1vw;
+    text-align: center;
+    border-top: 2vw;
+    font-family: 'Arial';
+    font-weight: 300;
+    font-size: 2vw;
+    color: rgb(0, 0, 0);
+}

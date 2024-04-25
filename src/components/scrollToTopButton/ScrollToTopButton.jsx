@@ -7,17 +7,15 @@ function ScrollToTopButton() {
   useEffect(() => {
     // Показать кнопку, когда пользователь прокручивает страницу на определенную высоту
     const toggleVisibility = () => {
-      if (window.pageYOffset > 300) {
+      if (window.scrollY > 300 && !isVisible) {
         setIsVisible(true);
       } else {
         setIsVisible(false);
       }
     };
 
-    // Добавить слушатель прокрутки страницы
     window.addEventListener('scroll', toggleVisibility);
 
-    // Убрать слушатель при размонтировании компонента
     return () => {
       window.removeEventListener('scroll', toggleVisibility);
     };

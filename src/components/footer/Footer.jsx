@@ -2,8 +2,8 @@ import React from 'react';
 import './footer.css';
 const Footer = () => {
   return (
-    <div>
-      Footer
+    <div className='footer_text'>
+      © Ski Tim 2024
     </div>
   )
 }

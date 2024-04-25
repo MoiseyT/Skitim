@@ -6,10 +6,10 @@ import Spring from '../../assets/Spring.png';
 import Summer from '../../assets/Summer.png';
 import Autumn from '../../assets/Autumn.png';
 
-import Winter_icon from '../../assets/Snowflake.png';
-import Spring_icon from '../../assets/flower.png';
-import Summer_icon from '../../assets/Sun.png';
-import Autumn_icon from '../../assets/Blat.png';
+import Winter_icon from '../../assets/Icons/Snowflake.png';
+import Spring_icon from '../../assets/Icons/flower.png';
+import Summer_icon from '../../assets/Icons/Sun.png';
+import Autumn_icon from '../../assets/Icons/Blat.png';
 
 const Thumbnail = ({ arr, image, index }) => {
   return (<div className="tumbnail">
@@ -71,7 +71,8 @@ function Slider_training() {
       <Slideshow
         imgs={[Winter, Spring, Summer, Autumn]}
         Icones={[Winter_icon, Spring_icon, Summer_icon, Autumn_icon]}
-        texts={[`
+        texts={[`Зима
+
       ✔ Покупайте самолепные пельмени!
 
       ✔ Это вкусно и сытно!
@@ -80,7 +81,8 @@ function Slider_training() {
 
       ✔ Уделите внимание тесту!
     `,
-          `
+          `Весна
+
     ✔ Покупайте качественные корма!
     
     ✔ Прогуливайтесь с собакой каждый день!
@@ -88,7 +90,8 @@ function Slider_training() {
     ✔ Уделяйте внимание обучению и играм!
   
     ✔ Регулярно проверяйте здоровье!
-  `, `
+  `, `Лето
+
   ✔ Используйте свежемолотый кофе!
   
   ✔ Не переживайте кофе!
@@ -97,7 +100,8 @@ function Slider_training() {
   
   ✔ Открывайте для себя новые сорта!
 `,
-          `
+          `Осень
+
 ✔ Читайте разнообразные жанры!
 
 ✔ Находите время для чтения каждый день!

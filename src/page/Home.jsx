@@ -1,5 +1,5 @@
 import React, { useEffect }  from 'react';
-import { About, Navbar, Training, Prices, Contacts, ScrollToTopButton } from '../components';
+import { About, Navbar, Training, Prices, Contacts, ScrollToTopButton, Footer } from '../components';
 import './App.css';
 
 
@@ -11,12 +11,14 @@ export function Home () {
 
     return (
         <div className='home'>
+         <ScrollToTopButton />
           <Navbar />
           <About />
           <Training />
+          <h2 className='homepage_price'>Цены</h2>
           <Prices />
           <Contacts />
-          <ScrollToTopButton />
+          <Footer />
         </div>
       )
 }
