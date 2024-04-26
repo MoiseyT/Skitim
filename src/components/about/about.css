@@ -44,14 +44,14 @@
     margin-right: 2vw;
 }
 .my_info {
+    width: 62vw;
     list-style-type: none;
-    overflow-wrap: break-word;
     margin-left: 1vw;
     margin-top: 7vw;
     position: absolute;
     font-family: 'Arial';
     font-weight: 400;
-    font-size: 2vw;
+    font-size: 1.7vw;
     font-weight: bold;
     color: #000000;
     top: 5vw;
@@ -62,7 +62,7 @@
 
 .my_info li {
     margin-bottom: 2vw;
-    /* Увеличенный отступ */
+    margin-left: 0;
 }
 
 .my_info_more {
@@ -73,7 +73,7 @@
     position: absolute;
     font-family: 'Arial';
     font-weight: 400;
-    font-size: 2vw;
+    font-size: 1.7vw;
     color: #ffffff;
     top: 5vw;
     left: 5vw;

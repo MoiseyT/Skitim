@@ -36,8 +36,10 @@
 .training_description{
     text-align: left;
     font-family: 'Arial';
-    font-size: 1.8vw;
+    font-size: 1.5vw;
     width: 100vw;
+    text-align: justify;
+    text-indent: 5vw;
 }
 .block_button {
     text-align: left;

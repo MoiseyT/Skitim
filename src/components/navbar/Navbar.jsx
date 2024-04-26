@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
     const navItems = [
-        { text: "Home", to: "/", type: "page" },
-        { text: "Training", to: "/Training_page", type: "page" },
-        { text: "Price", href: "#price_en", type: "container"},
-        { text: "Contact", href: "#contacts_en", type: "container"}
+        { text: "Домой", to: "/", type: "page" },
+        { text: "Тренировки", to: "/Training_page", type: "page" },
+        { text: "Цены", href: "#price_en", type: "container"},
+        { text: "Связаться", href: "#contacts_en", type: "container"}
     ];
 
     const scrollToComponent = (href) => {

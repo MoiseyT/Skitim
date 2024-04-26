@@ -83,9 +83,9 @@
 }
 
 .image-text {
-  bottom:10vw;
-  left: 20vw;
-  overflow-wrap: break-word;
+  display:flex;
+  margin-right: 20vw;
+  margin-bottom: 15vw;
   position: absolute;
   font-family: 'Arial';
   font-weight: bold;

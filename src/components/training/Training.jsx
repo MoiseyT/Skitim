@@ -17,7 +17,7 @@ const Training = () => {
         <div className="button-container">
           <button className='training_button'>
             <Link to="/Training_page">
-              More</Link>
+              К тренировкам</Link>
           </button>
         </div>
       </div>
@@ -25,21 +25,30 @@ const Training = () => {
         <div className="training-item">
           <img src={Snow_tree} alt="Icon1" className="training-icon" />
           <div className="training_text">
-            <p>Освойте лыжные хода</p>
-            <p>Любуйтесь красотами Швейцарии</p>
-            </div>
+            <p>Освойте технику</p>
+            <p>Классика, конек и Double Poling</p>
+          </div>
         </div>
         <div className="training-item">
           <img src={Trail_running} alt="Icon1" className="training-icon" />
-          <div className="training_text">Кроссовок лежит на дроожке надо еще немногапи п апп ао текста добавить</div>
+          <div className="training_text">
+            <p>Вариативность и комфорт</p>
+            <p>Гибкие тренировочные программы</p>
+          </div>
         </div>
         <div className="training-item">
           <img src={Gears} alt="Icon1" className="training-icon" />
-          <div className="training_text">Смотри направо</div>
+          <div className="training_text">
+            <p>Современные методы</p>
+            <p>Баланс между традициями и инновациями</p>
+          </div>
         </div>
         <div className="training-item">
           <img src={Stairs} alt="Icon1" className="training-icon" />
-          <div className="training_text">Смотри налево</div>
+          <div className="training_text">
+            <p>Мотивация и поддержка</p>
+            <p>Учет интересов спортсмена</p>
+          </div>
         </div>
       </div>
     </div>

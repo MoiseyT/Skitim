@@ -26,7 +26,7 @@ function Contacts() {
   return (
     <div className='contact_container'>
       <div id='contacts_en'>
-        <h3 className='contact_me'>Contact me</h3>
+        <div className='contact_me'>Contact me</div>
         {sent ? (
           <p>Thank you for your message! We'll get back to you soon.</p>
         ) : (
