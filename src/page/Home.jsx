@@ -11,6 +11,7 @@ export function Home () {
 
     return (
         <div className='home'>
+          <title>Уникальный заголовок страницы</title>
          <ScrollToTopButton />
           <Navbar />
           <About />

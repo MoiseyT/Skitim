@@ -26,14 +26,14 @@ function Contacts() {
   return (
     <div className='contact_container'>
       <div id='contacts_en'>
-        <div className='contact_me'>Contact me</div>
+        <div className='contact_me'>Связаться</div>
         {sent ? (
           <p>Thank you for your message! We'll get back to you soon.</p>
         ) : (
           <form onSubmit={handleSubmit} className="form-group">
             <div>
               <input id="Name_textarea_en" type="text" value={name} onChange={(e) => setName(e.target.value)}
-                placeholder="Name" required />
+                placeholder="Имя" required />
             </div>
             <div >
               <input id="Email_textarea_en" type="email" value={email} onChange={(e) => setEmail(e.target.value)}
@@ -41,17 +41,17 @@ function Contacts() {
             </div>
             <div>
               <textarea id="Message_textarea_en" value={message} onChange={(e) => setMessage(e.target.value)}
-                placeholder="Message" required />
+                placeholder="Сообщение" required />
             </div>
             <div className="button-sent-container_en">
-              <button type="submit" id='button_send_en'>Send</button>
+              <button type="submit" id='button_send_en'>Отправить</button>
             </div>
           </form>
         )}
       </div>
       <div className='contact_final_description_en'>
         <div className='contact_final_description_text1_en'>
-        Наслаждайся тренировками на свежем воздухе вместе со мной!
+        Наслаждайся тренировками вместе со мной!
         </div>
         <div className='icons'>
           <a id='Whatsapp' href="https://api.whatsapp.com/send?phone=0765444634" target="_blank" rel="noopener noreferrer">

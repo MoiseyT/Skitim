@@ -83,12 +83,13 @@
 }
 
 .image-text {
+  width: 60vw;
   display:flex;
-  margin-right: 20vw;
+  line-height: 1.5;
   margin-bottom: 15vw;
   position: absolute;
   font-family: 'Arial';
   font-weight: bold;
-  font-size: 2vw;
+  font-size: 1.5vw;
   color: #ffffff;
 }
