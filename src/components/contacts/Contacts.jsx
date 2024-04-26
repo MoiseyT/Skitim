@@ -54,13 +54,13 @@ function Contacts() {
         Наслаждайся тренировками вместе со мной!
         </div>
         <div className='icons'>
-          <a id='Whatsapp' href="https://api.whatsapp.com/send?phone=0765444634" target="_blank" rel="noopener noreferrer">
+          <a id='Whatsapp' href="https://api.whatsapp.com/send?phone=+41765444634" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faWhatsapp} style={{ color: '#25D366' }} />
           </a>
           <a id='Telegram' href="https://t.me/tdmoiseev" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faTelegram} style={{ color: '#0088cc' }} />
           </a>
-          <a id='Instagram' href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+          <a id='Instagram' href="https://www.instagram.com/moisey_ski" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faInstagram} style={{ color: '#E4405F' }} />
           </a>
         </div>
