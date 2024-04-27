@@ -5,14 +5,12 @@ import { Training_page } from './page/Training_page';
 import React from 'react';
 import { I18nextProvider } from 'react-i18next';
 import i18n from './page/i18n.js'
-import RotatePhoneMessage from './components/phone_rotate/phone_rotate.jsx';
 
 function App() {
 
 
   return (
-    <I18nextProvider i18n={i18n}>
-    <RotatePhoneMessage />   
+    <I18nextProvider i18n={i18n}> 
     <Router>
         <Routes>   
           <Route exact path="/" element={<Home />} />
