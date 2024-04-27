@@ -40,7 +40,7 @@ const Training = () => {
           <img src={Gears} alt="Icon1" className="training-icon" />
           <div className="training_text">
             <p>Современные методы</p>
-            <p>Баланс между традициями и инновациями</p>
+            <p>Традиции и инновации</p>
           </div>
         </div>
         <div className="training-item">

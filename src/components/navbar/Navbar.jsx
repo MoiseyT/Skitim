@@ -2,6 +2,8 @@ import React from 'react';
 import './navbar.css';
 import logo from '../../assets/logo.png';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
+
 
 function Navbar() {
     const navItems = [
@@ -17,6 +19,12 @@ function Navbar() {
             element.scrollIntoView({ behavior: 'smooth' });
         }
     };
+
+    const { i18n } = useTranslation();
+
+    const changeLanguage = (language) => {
+        i18n.changeLanguage(language);
+      };
 
     return (
         <div className="navbar">
@@ -41,9 +49,9 @@ function Navbar() {
             ))
             }
             <div className="languages">
-                <button className="en_button_language_en"><Link to="/">EN</Link></button>
-                <button className="en_button_language_de"><Link to="/Home_de">DE</Link></button>
-                <button className="en_button_language_ru"><Link to="/Home_ru">RU</Link></button>
+                <button className="en_button_language_en" onClick={() => changeLanguage('en')}>EN</button>
+                <button className="en_button_language_de" onClick={() => changeLanguage('de')}>DE</button>
+                <button className="en_button_language_ru" onClick={() => changeLanguage('ru')}>RU</button>
             </div>
         </div>
     );
