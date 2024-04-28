@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
 import { About, Mobile_navbar, Training, Prices, Contacts, ScrollToTopButton, Footer } from '../components';
 import './App.css';
-
+import logo from '../assets/logo.png';
+import './mobile_home.css';
 
 export function Mobile_home() {
 
@@ -14,6 +15,7 @@ export function Mobile_home() {
         <title>Уникальный заголовок страницы</title>
         <ScrollToTopButton />
         <Mobile_navbar />
+        <img src={logo} className='mobile_logo' alt="Логотип" />
         <h2 className='homepage_price'>Цены</h2>
         <Prices />
         <Contacts />

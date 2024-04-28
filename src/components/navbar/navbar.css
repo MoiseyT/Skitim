@@ -70,8 +70,3 @@
 .button_language_ru:focus {
     background-color: #FF9F00;
 }
-
-
-.selected {
-    background-color: orange;
-}

@@ -42,8 +42,7 @@ function Navbar() {
                     ) : (
                         <button
                             className="nav-button"
-                            onClick={() => scrollToComponent(item.href)}
-                        >
+                            onClick={() => scrollToComponent(item.href)}>
                             {item.text}
                         </button>
                     )}
