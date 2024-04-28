@@ -121,19 +121,19 @@
 }
 
 .mobile_logo {
-  width: 6vw;
-  height: 6vw;
+  width: 14vw;
+  height: 14vw;
   margin-left: 2vw;
 }
 
 .mobile_title {
   font-family: 'Arial';
-  font-size: 4vw;
+  font-size: 8vw;
   text-align: center;
 }
 
 .personal_coach {
   font-family: 'Arial';
-  font-size: 2vw;
+  font-size: 5vw;
   text-align: center;
 }

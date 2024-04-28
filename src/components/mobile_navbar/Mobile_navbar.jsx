@@ -60,7 +60,7 @@ function Mobile_navbar() {
     <div className="dropdown-menu" ref={menuRef}>
       {!isOpen && (
         <button className="dropdown-button" onClick={toggleMenu}>
-          <FaBars />
+          <FaBars size={32}/>
         </button>
       )}
       <div className='mobile_title'>Ski Tim
