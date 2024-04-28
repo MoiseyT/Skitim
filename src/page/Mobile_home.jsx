@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { About, Navbar, Training, Prices, Contacts, ScrollToTopButton, Footer } from '../components';
+import { About, Mobile_navbar, Training, Prices, Contacts, ScrollToTopButton, Footer } from '../components';
 import './App.css';
 
 
@@ -10,11 +10,10 @@ export function Mobile_home() {
   }, []);
 
   return (
-      <div className='home'>
+      <div>
         <title>Уникальный заголовок страницы</title>
         <ScrollToTopButton />
-        <Navbar />
-        <Training />
+        <Mobile_navbar />
         <h2 className='homepage_price'>Цены</h2>
         <Prices />
         <Contacts />

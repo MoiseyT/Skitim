@@ -9,3 +9,5 @@ export {default as Sport_level} from './sport_level/Sport_level';
 export {default as Plan} from './plan_final/Plan';
 export {default as Our_pluses} from './our_pluses/Our_pluses';
 export {default as ScrollToTopButton} from './scrollToTopButton/ScrollToTopButton';
+
+export {default as Mobile_navbar} from './mobile_navbar/Mobile_navbar';
