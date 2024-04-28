@@ -23,8 +23,8 @@
     border-radius: 20px;
     border: 1px;
     background: #FF9F00;
-    
-    
+
+
 }
 
 .nav-button:hover {
@@ -35,23 +35,22 @@
 .languages {
     cursor: pointer;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     padding: 2vw;
 }
 
-.en_button_language_en {
-    font-family: 'Arial';
-    font-size: 1.5vw;
-    background: #FF9F00;
-    border: 1px;
-}
 
-.en_button_language_en > a, .en_button_language_de > a, .en_button_language_ru  > a {
+.button_language_en>a,
+.button_language_de>a,
+.button_language_ru>a {
     text-decoration: none;
     color: #000000;
-  }
+}
 
-.en_button_language_de, .en_button_language_ru {
+.button_language_de,
+.button_language_ru,
+.button_language_en {
+    cursor: pointer;
     align-items: center;
     font-family: 'Arial';
     font-size: 1.5vw;
@@ -59,9 +58,20 @@
     background: rgba(209, 242, 255, 1) 100%;
 }
 
-.en_button_language_de:hover, .en_button_language_ru:hover, .en_button_language_en:hover {
+.button_language_de:hover,
+.button_language_ru:hover,
+.button_language_en:hover {
     color: #ffffff;
     background: #004484;
 }
 
+.button_language_en:focus,
+.button_language_de:focus,
+.button_language_ru:focus {
+    background-color: #FF9F00;
+}
 
+
+.selected {
+    background-color: orange;
+}

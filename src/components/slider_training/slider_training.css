@@ -26,7 +26,7 @@
 
 .actions {
   position: relative;
-  top: -19vw;
+  top: -21vw;
   display: flex;
   justify-content: space-between;
   position: relative;
@@ -39,7 +39,7 @@
   cursor: pointer;
   padding: 1vw;
   margin: 1vw;
-  border-radius: 2vw;
+  border-radius: 1.5vw;
 }
 
 .actions button:active {

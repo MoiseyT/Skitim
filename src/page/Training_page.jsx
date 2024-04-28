@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import './App.css';
-import { Link } from 'react-router-dom';
 import { Navbar, Contacts, Slider_training, Prices, Our_pluses, ScrollToTopButton } from '../components';
 
 
