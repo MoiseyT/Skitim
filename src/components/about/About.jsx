@@ -12,7 +12,6 @@ const About = () => {
       <img src={About_img} alt="About_training" />
       <video className="video-container" width='350' height='500' controls autoPlay >
         <source src={Preview} type="video/mp4" />
-        Ваш браузер не поддерживает видео тег.
       </video>
       <h1><Trans i18nKey="Home_welcome" /></h1>
       <div className='my_info'>

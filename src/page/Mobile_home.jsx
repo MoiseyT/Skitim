@@ -1,9 +1,8 @@
 import React, { useEffect } from 'react';
 import { About, Mobile_navbar, Training, Prices, Contacts, ScrollToTopButton, Footer } from '../components';
 import './App.css';
-import logo from '../assets/logo.png';
 import './mobile_home.css';
-
+import Preview from '../assets/Preview.mp4';
 export function Mobile_home() {
 
   useEffect(() => {
@@ -11,15 +10,17 @@ export function Mobile_home() {
   }, []);
 
   return (
-      <div>
-        <title>Уникальный заголовок страницы</title>
-        <ScrollToTopButton />
-        <Mobile_navbar />
-        <img src={logo} className='mobile_logo' alt="Логотип" />
-        <h2 className='homepage_price'>Цены</h2>
-        <Prices />
-        <Contacts />
-        <Footer />
-      </div>
+    <div>
+      <title>Уникальный заголовок страницы</title>
+      <ScrollToTopButton />
+      <Mobile_navbar />
+      <video className="video-mobile" width='350' height='500' controls autoPlay >
+        <source src={Preview} type="video/mp4" />
+      </video>
+      <h2 className='homepage_price'>Цены</h2>
+      <Prices />
+      <Contacts />
+      <Footer />
+    </div>
   )
 }

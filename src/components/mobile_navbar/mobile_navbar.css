@@ -1,24 +1,32 @@
 .dropdown-menu {
   display: flex;
-  justify-content: flex-end; /* Это выравнивание помещает все элементы вправо */
-  position: relative;
+  justify-content: space-between;
+  position: fixed;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 2vw;
+  padding-top: 2vw;
+  background-color: rgba(0, 68, 132, 0.4); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+
 }
 
 .dropdown-button {
-  background-color: #fff;
-  border: 1px solid #ccc;
-  font-size: 5vw;
+  background-color: #ffffff00;
+  border: 1px solid #cccccc00;
   cursor: pointer;
 }
 
 .menu-content {
   position: absolute;
-  top: 100%;
+  left: auto;
+  top: 0;
   right: 0; /* Установка правого выравнивания */
-  width: 50%;
+  width: 70%;
   height: auto;
   background-color: #fff;
-  border: 1px solid #ccc;
   border-top: none;
   display: none;
 }
@@ -51,12 +59,12 @@
 .menu-button {
   display: block;
   width: 100%;
-  padding-top: 2vw; 
-  padding-bottom: 2vw;/* Отступы вокруг текста кнопки */
+  padding-top: 1vw; 
+  padding-bottom: 1vw;/* Отступы вокруг текста кнопки */
   text-decoration: none;
   font-family: 'Arial';
-  font-weight: bold;
-  font-size: 4vw;
+  font-weight: 500;
+  font-size: 8vw;
   color: #000000;
   text-align: center;
   background-color: #f4f4f4; /* Цвет фона кнопки */
@@ -110,4 +118,22 @@
 
 .selected {
     background-color: orange;
+}
+
+.mobile_logo {
+  width: 6vw;
+  height: 6vw;
+  margin-left: 2vw;
+}
+
+.mobile_title {
+  font-family: 'Arial';
+  font-size: 4vw;
+  text-align: center;
+}
+
+.personal_coach {
+  font-family: 'Arial';
+  font-size: 2vw;
+  text-align: center;
 }

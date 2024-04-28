@@ -2,6 +2,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import './mobile_navbar.css';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
+import logo from '../../assets/logo.png';
+import { FaBars } from 'react-icons/fa';
 
 
 function Mobile_navbar() {
@@ -58,9 +60,14 @@ function Mobile_navbar() {
     <div className="dropdown-menu" ref={menuRef}>
       {!isOpen && (
         <button className="dropdown-button" onClick={toggleMenu}>
-          Меню
+          <FaBars />
         </button>
       )}
+      <div className='mobile_title'>Ski Tim
+      <div className='personal_coach'>персональный тренер</div>
+      </div>
+      
+      <img src={logo} className='mobile_logo' alt="Логотип" />
       <div className={`menu-content ${isOpen ? 'show' : ''}`}>
         <ul className="vertical-menu">
           {navItems.map((item, index) => (
