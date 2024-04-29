@@ -1,4 +1,37 @@
 .video-mobile {
     width: 100%;
     height: auto;
+    margin-bottom: 5vw;
+}
+
+.mobile_page_title {
+    padding: 1vw;
+    margin: 2vw auto 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 80%;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 6vw;
+    text-align: center;
+    border: 2px solid orange;
+    border-radius: 3vw;
+}
+
+.about_me_description {
+    margin: 6vw auto 0;
+    padding: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    width: 80%;
+    border-radius: 3vw;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+    font-size: 4vw;
+    text-align: center;
+    font-family: 'Arial';
+
 }

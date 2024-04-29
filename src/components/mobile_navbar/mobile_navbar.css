@@ -59,15 +59,15 @@
 .menu-button {
   display: block;
   width: 100%;
-  padding-top: 1vw; 
-  padding-bottom: 1vw;/* Отступы вокруг текста кнопки */
+  padding-top: 4vw; 
+  padding-bottom: 4vw;/* Отступы вокруг текста кнопки */
   text-decoration: none;
   font-family: 'Arial';
-  font-weight: 500;
-  font-size: 8vw;
+  font-weight: 300;
+  font-size: 6vw;
   color: #000000;
   text-align: center;
-  background-color: #f4f4f4; /* Цвет фона кнопки */
+  background-color: rgba(59, 112, 184, 1); /* Цвет фона кнопки */
  /* Цвет текста кнопки */
   border: none;
   cursor: pointer;
@@ -99,14 +99,14 @@
     font-family: 'Arial';
     font-size: 3vw;
     border: 90px;
-    background: rgba(209, 242, 255, 1) 100%;
+    background: rgba(59, 112, 184, 1);
 }
 
 .mobile_button_language_de:hover,
 .mobile_button_language_ru:hover,
 .mobile_button_language_en:hover {
     color: #ffffff;
-    background: #004484;
+    background: #FF9F00;
 }
 
 .mobile_button_language_en:focus,
@@ -117,7 +117,7 @@
 
 
 .selected {
-    background-color: orange;
+    background-color: #FF9F00;
 }
 
 .mobile_logo {
@@ -130,10 +130,21 @@
   font-family: 'Arial';
   font-size: 8vw;
   text-align: center;
+  opacity: 0.7;
 }
 
 .personal_coach {
   font-family: 'Arial';
   font-size: 5vw;
   text-align: center;
+  opacity: 0.7;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
 }

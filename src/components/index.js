@@ -11,3 +11,4 @@ export {default as Our_pluses} from './our_pluses/Our_pluses';
 export {default as ScrollToTopButton} from './scrollToTopButton/ScrollToTopButton';
 
 export {default as Mobile_navbar} from './mobile_navbar/Mobile_navbar';
+export {default as Mobile_training} from './mobile_training/Mobile_training';
