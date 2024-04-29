@@ -13,3 +13,4 @@ export {default as ScrollToTopButton} from './scrollToTopButton/ScrollToTopButto
 export {default as Mobile_navbar} from './mobile_navbar/Mobile_navbar';
 export {default as Mobile_training} from './mobile_training/Mobile_training';
 export {default as Mobile_Slider_training} from './mobile_slider_training/Mobile_Slider_training';
+export {default as Mobile_Prices} from './mobile_prices/Mobile_Prices';

@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import {Mobile_navbar, Prices, Contacts, ScrollToTopButton, Footer, Mobile_training, Mobile_Slider_training } from '../components';
+import {Mobile_navbar, Mobile_Prices, Contacts, ScrollToTopButton, Footer, Mobile_training, Mobile_Slider_training } from '../components';
 import './App.css';
 import './mobile_home.css';
 import Preview from '../assets/Preview.mp4';
@@ -24,9 +24,10 @@ export function Mobile_home() {
         <p>Присоединяйся!</p>
       </div>
       <Mobile_training />
-      <h2 className='homepage_price'>Цены</h2>
+      <h2 className='mobile_page_title'>Тренировки в любое время года</h2>
       <Mobile_Slider_training />
-      <Prices />
+      <h2 className='mobile_page_title'>Цены</h2>
+      <Mobile_Prices />
       <Contacts />
       <Footer />
     </div>
