@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Skitim/static/css/main.8c88ef86.css",
-    "main.js": "/Skitim/static/js/main.e96dfb48.js",
+    "main.css": "/Skitim/static/css/main.b4ddfb9c.css",
+    "main.js": "/Skitim/static/js/main.91a49324.js",
     "static/media/Preview.mp4": "/Skitim/static/media/Preview.b3b8ba2ad4eb4add537c.mp4",
     "static/media/Training_img.png": "/Skitim/static/media/Training_img.211e74f5cdf7d7f31859.png",
     "static/media/Plan_img.png": "/Skitim/static/media/Plan_img.1163030036c8cb562f0d.png",
@@ -29,11 +29,11 @@
     "static/media/Connection.png": "/Skitim/static/media/Connection.f73a2d3bb78672c1504a.png",
     "static/media/Snow_tree.png": "/Skitim/static/media/Snow_tree.0b6587e081622aee76bd.png",
     "index.html": "/Skitim/index.html",
-    "main.8c88ef86.css.map": "/Skitim/static/css/main.8c88ef86.css.map",
-    "main.e96dfb48.js.map": "/Skitim/static/js/main.e96dfb48.js.map"
+    "main.b4ddfb9c.css.map": "/Skitim/static/css/main.b4ddfb9c.css.map",
+    "main.91a49324.js.map": "/Skitim/static/js/main.91a49324.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c88ef86.css",
-    "static/js/main.e96dfb48.js"
+    "static/css/main.b4ddfb9c.css",
+    "static/js/main.91a49324.js"
   ]
 }
