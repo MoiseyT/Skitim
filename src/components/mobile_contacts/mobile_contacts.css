@@ -111,9 +111,9 @@ label {
   background: #004484;
 }
 
-.m_center-logo-bottom {
+.m_center-logo-bottom img {
   display: flex;
-  margin-top: 5vw;
+  margin: auto;
   justify-content: center; 
   border-radius: 5vw;
   padding: 1vw;
