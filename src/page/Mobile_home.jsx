@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react';
-import {Mobile_navbar, Mobile_Prices, Contacts, ScrollToTopButton, Footer, Mobile_training, Mobile_Slider_training } from '../components';
+import {Mobile_navbar, Mobile_Prices, Mobile_ScrollToTopButton, Footer, Mobile_training, Mobile_Slider_training, Mobile_Contacts } from '../components';
 import './App.css';
 import './mobile_home.css';
 import Preview from '../assets/Preview.mp4';
+
 export function Mobile_home() {
 
   useEffect(() => {
@@ -12,7 +13,7 @@ export function Mobile_home() {
   return (
     <div className='mobile_home'>
       <title>Уникальный заголовок страницы</title>
-      <ScrollToTopButton />
+      <Mobile_ScrollToTopButton />
       <Mobile_navbar />
       <video className="video-mobile" width='350' height='500' controls autoPlay >
         <source src={Preview} type="video/mp4" />
@@ -28,7 +29,7 @@ export function Mobile_home() {
       <Mobile_Slider_training />
       <h2 className='mobile_page_title'>Цены</h2>
       <Mobile_Prices />
-      <Contacts />
+      <Mobile_Contacts />
       <Footer />
     </div>
   )

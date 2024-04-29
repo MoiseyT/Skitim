@@ -14,3 +14,5 @@ export {default as Mobile_navbar} from './mobile_navbar/Mobile_navbar';
 export {default as Mobile_training} from './mobile_training/Mobile_training';
 export {default as Mobile_Slider_training} from './mobile_slider_training/Mobile_Slider_training';
 export {default as Mobile_Prices} from './mobile_prices/Mobile_Prices';
+export {default as Mobile_Contacts} from './mobile_contacts/Mobile_Contacts';
+export {default as Mobile_ScrollToTopButton} from './mobile_scrollToTopButton/Mobile_ScrollToTopButton';

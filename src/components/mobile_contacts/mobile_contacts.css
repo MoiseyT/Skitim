@@ -1,0 +1,121 @@
+.m_contact_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  overflow-y: auto;
+}
+
+#m_contacts_en {
+  border-color: #FF9F00;
+  border: 2vw;
+}
+
+label {
+  display: block; 
+  font-family: 'Arial';
+  font-weight: bold;
+
+}
+
+.m_contact_me {
+
+  color: rgb(0, 0, 0);
+  font-family: 'Arial';
+  text-align: center;
+  font-weight: bold; 
+  font-size: 6vw;
+  margin-bottom: 6vw;
+  margin-top: 8vw;
+}
+
+
+#m_Name_textarea_en, #m_Email_textarea_en  {
+  height: 4vw;
+  width: 80%;
+  border: none;
+  border-bottom: 0.3vw solid #000000; /* Граница снизу */
+  padding-bottom: 1vw;
+  margin-bottom: 13vw;
+  margin-left: 8vw;
+  text-align: left;
+  font-family: 'Arial';
+  font-weight: bold;
+  font-size: 4vw;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#m_Message_textarea_en {
+  height: 20vw;
+  width: 80%;
+  border: none;
+  margin-left: 8vw;
+  text-align: left;
+  font-family: 'Arial';
+  font-weight: bold;
+  font-size: 4vw; 
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#m_Message_textarea_en::placeholder, #m_Name_textarea_en::placeholder, #m_Email_textarea_en::placeholder {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.m_contact_final_description_en {
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-around;
+  align-items: center;
+}
+
+.m_icons {
+  font-size: 15vw;
+  margin: 2vw;
+}
+
+.m_contact_final_description_text1_en {
+  font-family: 'Arial';
+  font-weight: bold;
+  font-size: 6vw; 
+  text-align: center;
+  margin: 2vw;
+}
+#Whatsapp, #Telegram, #Instagram {
+  margin: 1.5vw;
+}
+.m_button-sent-container_en {
+  display: flex;
+  justify-content: center; 
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  margin-top: 5vw;
+  margin-bottom: 10vw;
+}
+#m_button_send_en {
+  display: flex;
+  justify-content: center; 
+  width: 70%;
+  font-family: 'Arial';
+  font-weight: bold;
+  font-size: 8vw;
+  color: #000000;
+  padding: 1vw 1vw;
+  margin-right: 1vw;
+  border-radius: 2vw;
+  border: 2px;
+  background: #FF9F00;
+}
+
+#button_send_en:hover {
+  cursor: pointer;
+  color: #ffffff;
+  background: #004484;
+}
+
+.m_center-logo-bottom img {
+  display: flex;
+  justify-content: center; 
+  border-radius: 5vw;
+  padding: 1vw;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: auto;
+}
