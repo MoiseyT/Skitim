@@ -31,7 +31,7 @@ function Mobile_ScrollToTopButton() {
   return (
     <div>
       {isVisible && (
-        <button className="scroll-to-top-btn" onClick={scrollToTop}>
+        <button className="m_scroll-to-top-btn" onClick={scrollToTop}>
           &#9650;
         </button>
       )}
