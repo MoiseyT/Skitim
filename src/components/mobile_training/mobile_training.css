@@ -67,13 +67,13 @@
 
 .m_training_text {
     font-family: 'Arial';
-    font-size: 3vw;
+    font-size: 4vw;
 }
 
 .m_training-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10vw;
+    gap: 1vw;
     z-index: 2;
     margin: 4vw 0;
     position: absolute;
