@@ -15,7 +15,7 @@ export function Mobile_home() {
       <title>Уникальный заголовок страницы</title>
       <Mobile_ScrollToTopButton />
       <Mobile_navbar />
-      <video className="video-mobile" width='350' height='500' controls autoPlay >
+      <video className="video-mobile" id='m_home_en' width='350' height='500' controls autoPlay >
         <source src={Preview} type="video/mp4" />
       </video>
       <h2 className='mobile_page_title'>Тренировки в Ski Tim: энергия и сила в каждом движении!</h2>
@@ -25,9 +25,9 @@ export function Mobile_home() {
         <p>Присоединяйся!</p>
       </div>
       <Mobile_training />
-      <h2 className='mobile_page_title'>Тренировки в любое время года</h2>
+      <h2 className='mobile_page_title' id='m_training_en'>Тренировки в любое время года</h2>
       <Mobile_Slider_training />
-      <h2 className='mobile_page_title'>Цены</h2>
+      <h2 className='mobile_page_title' id='m_price_en'>Цены</h2>
       <Mobile_Prices />
       <Mobile_Contacts />
       <Footer />

@@ -111,11 +111,14 @@ label {
   background: #004484;
 }
 
-.m_center-logo-bottom img {
+.m_center-logo-bottom {
   display: flex;
+  margin-top: 5vw;
   justify-content: center; 
   border-radius: 5vw;
   padding: 1vw;
   background-color: rgba(255, 255, 255, 0.5);
   height: auto;
+  width: 70%;
 }
+

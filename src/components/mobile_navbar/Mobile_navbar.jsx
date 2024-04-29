@@ -10,16 +10,16 @@ function Mobile_navbar() {
   const { i18n } = useTranslation();
 
   const navItems = [
-    { text: "Домой", to: "/", type: "page" },
-    { text: "Тренировки", to: "/Training_page", type: "page" },
-    { text: "Цены", href: "#price_en", type: "container" },
-    { text: "Связаться", href: "#contacts_en", type: "container" }
+    { text: "Домой", href: "#m_home_en", type: "container" },
+    { text: "Тренировки", href: "#m_training_en", type: "container" },
+    { text: "Цены", href: "#m_price_en", type: "container" },
+    { text: "Связаться", href: "#m_contacts_en", type: "container" }
   ];
 
   const targetRef = useRef(null);
 
-  const scrollToComponent = () => {
-    const element = document.getElementById("price_en");
+  const scrollToComponent = (href) => {
+    const element = document.getElementById(href.substring(1));
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }

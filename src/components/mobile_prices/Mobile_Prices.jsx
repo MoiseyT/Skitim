@@ -3,7 +3,7 @@ import './mobile_prices.css';
 
 const Mobile_Prices = () => {
 
-  const navContacts = [{ text: "Связаться", href: "#contacts_en" }];
+  const navContacts = [{ text: "Связаться", href: "#m_contacts_en" }];
 
   const scrollToContacts = (href) => {
     const element = document.getElementById(href.substring(1));
@@ -14,7 +14,7 @@ const Mobile_Prices = () => {
 
   const renderTrainingBlock = ({ name, description, price }) => {
     return (
-      <div className="m_block" id='price_en'>
+      <div className="m_block" >
         <div className="m_training_name">{name}</div>
         <div className='m_description_button_block'>
           <div className="m_training_description">{description}</div>

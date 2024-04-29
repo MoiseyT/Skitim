@@ -64,7 +64,7 @@ function Mobile_Contacts() {
           </a>
         </div>
         <div className="m_center-logo-bottom">
-          <img src={logo} alt="Logo" />
+          <img id = 'logo_contact' src={logo} alt="Logo" />
         </div></div>
     </div>
   );
