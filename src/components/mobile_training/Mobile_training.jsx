@@ -6,9 +6,10 @@ import Snow_tree from '../../assets/Icons/Snow_tree.png';
 import Trail_running from '../../assets/Icons/Trail_running.png';
 import Gears from '../../assets/Icons/Gears.png';
 import Stairs from '../../assets/Icons/Stairs.png';
-
+import { Trans, useTranslation } from 'react-i18next';
 
 const Training = () => {
+  const { t } = useTranslation();
   return (
     <div className="m_container_training" id="m_container_training">
       <div className="m_image-container" id="m_image-container">
@@ -18,29 +19,29 @@ const Training = () => {
         <div className="m_training-item">
           <img src={Snow_tree} alt="Icon1" className="m_training-icon" />
           <div className="m_training_text">
-          <p>Классика, конек и Double Poling</p>
-            <p>Освойте технику</p>
+          <Trans i18nKey="training_block1"/>
+            <p><Trans i18nKey="training_block2"/></p>
           </div>
         </div>
         <div className="m_training-item">
           <img src={Trail_running} alt="Icon1" className="m_training-icon" />
           <div className="m_training_text">
-            <p>Вариативность и комфорт</p>
-            <p>Гибкие тренировочные программы</p>
+          <Trans i18nKey="training_block3"/>
+            <p><Trans i18nKey="training_block4"/></p>
           </div>
         </div>
         <div className="m_training-item">
           <img src={Gears} alt="Icon1" className="m_training-icon" />
           <div className="m_training_text">
-            <p>Современные методы</p>
-            <p>Традиции и инновации</p>
+          <Trans i18nKey="training_block5"/>
+            <p><Trans i18nKey="training_block6"/></p>
           </div>
         </div>
         <div className="m_training-item">
           <img src={Stairs} alt="Icon1" className="m_training-icon" />
           <div className="m_training_text">
-            <p>Мотивация и поддержка</p>
-            <p>Учет интересов спортсмена</p>
+          <Trans i18nKey="training_block7"/>
+            <p><Trans i18nKey="training_block8"/></p>
           </div>
         </div>
       </div>

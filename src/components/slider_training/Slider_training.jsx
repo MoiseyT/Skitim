@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './slider_training.css';
+import { Trans, useTranslation } from 'react-i18next';
 
 import Winter from '../../assets/Winter.png';
 import Spring from '../../assets/Spring.png';
@@ -12,6 +13,8 @@ import Summer_icon from '../../assets/Icons/Sun.png';
 import Autumn_icon from '../../assets/Icons/Blat.png';
 
 const Thumbnail = ({ arr, image, index }) => {
+  const { t } = useTranslation();
+
   return (<div className="tumbnail">
     {
       arr.map((imgsrc, i) => (
@@ -71,48 +74,11 @@ function Slider_training() {
       <Slideshow
         imgs={[Winter, Spring, Summer, Autumn]}
         Icones={[Winter_icon, Spring_icon, Summer_icon, Autumn_icon]}
-        texts={[
-
-          `Зима
-
-      ✔ Тренировки на лучших лыжных трассах Швейцарии. Совершенствование техники
-
-      ✔ Скоростно-силовые тренировки для повышения уверенности на трассе
-
-      ✔ Подготовка к марафонам LaDiagonela, Engadin, серии Swiss Loppet, к локальным гонками и др.
-
-      ✔ Советы по экипировке и тактике прохождения дистанций
-    `,
-          `Весна
-
-      ✔ Восстановление функций организма после лыжного сезона
-    
-      ✔ Подготовка к трейлам и хайкинги
-  
-      ✔ Укрепление связок и мышц стабилизаторов
-  
-      ✔ Долгосрочное планирование спортивных целей на весь сезон
-  `,
-          `Лето
-
-        ✔ Интервальные тренировки. Скоростной треннинг в различных условиях
-  
-      ✔ Тренировки на лыжероллерах
-  
-  ✔ Наращивание тренировочных объемов при сохранении скорости и техники
-  
-  ✔ Раскрытие спортивного потенциала
-`,
-          `Осень
-
-✔ Точечная подготовка к лыжному сезону - увеличение количества скоростных тренировок
-
-✔ Упражнения на координацию, развитие скоростно-силовых качеств
-
-✔ Силовые и кроссовые тренировки на свежем воздухе
-
-✔ Моральная поддержка во время сезона туманов и дождей. Время активизации внутренних ресурсов
-`]}
+        texts={[<Trans i18nKey="slider1"/>,
+        <Trans i18nKey="slider2"/>,
+        <Trans i18nKey="slider3"/>,
+        <Trans i18nKey="slider4"/>,
+          ]}
       />
     </div>
   );

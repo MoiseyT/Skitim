@@ -42,5 +42,22 @@
   "contact_name": "Name",
   "contact_message": "Nachricht",
   "button_send": "Senden",
-  "enjoy_training": "Viel Spaß beim Training mit mir!"
+  "enjoy_training": "Viel Spaß beim Training mit mir!",
+
+  "slider1": "Winter\n\n✔ Training auf den besten Langlaufloipen der Schweiz. Verbesserung der Technik\n\n✔ Schnelligkeits- und Krafttraining zur Verbesserung der Stabilität auf der Strecke\n\n✔ Vorbereitung auf die LaDiagonela, Engadin-Marathons, Swissloppet-Serie, lokale Rennen usw.\n\n✔ Tipps zur Ausrüstung und Taktik bei Wettkämpfen",
+  "slider2": "Frühling\n\n✔ Wiederherstellung der Körperfunktionen nach der Langlaufsaison\n\n✔ Vorbereitung für Trailrunnig und Hiking\n\n✔ Stärkung der Bänder und stabilisierenden Muskeln\n\n✔ Langfristige Planung für die nächste Saison",
+  "slider3": "Sommer\n\n✔ Intervall-Training. Geschwindigkeitstraining unter verschiedenen Bedingungen\n\n✔ Training auf Rollskiern zum Üben der Technik\n\n✔ Erhöhung des Trainingsumfangs bei gleichzeitiger Beibehaltung von Geschwindigkeit und Technik\n\n✔ Entfalten Sie Ihr sportliches Potenzial",
+  "slider4": "Herbst\n\n✔ Gezielte Vorbereitung auf die Langlaufsaison – Erhöhung der Anzahl an Geschwindigkeitstrainings\n\n✔ Übungen zur Koordination, Entwicklung von Geschwindigkeits- und Kraftqualitäten\n\n✔ Stärken Sie Ihr Immunsystem mit Training an der frischen Luft \n\n✔ Moralische Unterstützung während der Regenzeit. Es ist Zeit, interne Ressourcen zu nutzen",
+
+  "advantages": "Vorteile",
+
+  "adv_block1": "Langfristige Kooperation",
+  "adv_block2": "Individueller Ansatz",
+  "adv_block3": "Feedback des Trainers",
+  "adv_block4": "Breites Trainingsangebot",
+  "adv_block5": "Coole vibe, Motivation",
+  "adv_block6": "Internationale Erfahrung",
+  "personal_coach": "Personal Trainer",
+  "Training_season": "Training zu jeder Jahreszeit"
+
 }

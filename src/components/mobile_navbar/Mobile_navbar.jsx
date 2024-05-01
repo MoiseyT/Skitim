@@ -1,19 +1,19 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './mobile_navbar.css';
-import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/logo.png';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { Trans, useTranslation } from 'react-i18next';
 
 function Mobile_navbar() {
-  const [selectedLanguage, setSelectedLanguage] = useState('en'); // Используем состояние для отслеживания выбранного языка
+  const [selectedLanguage, setSelectedLanguage] = useState('en'); 
   const { i18n } = useTranslation();
 
   const navItems = [
-    { text: "Домой", href: "#m_home_en", type: "container" },
-    { text: "Тренировки", href: "#m_training_en", type: "container" },
-    { text: "Цены", href: "#m_price_en", type: "container" },
-    { text: "Связаться", href: "#m_contacts_en", type: "container" }
+    { text: <Trans i18nKey="nav_bar_home" />, href: "#m_home_en", type: "container" },
+    { text: <Trans i18nKey="nav_bar_training" />, href: "m_price_en", type: "container" },
+    { text: <Trans i18nKey="nav_bar_price" />,href: "#m_price_en", type: "container" },
+    { text: <Trans i18nKey="nav_bar_contact" />, href: "#m_contacts_en", type: "container" }
   ];
 
   const targetRef = useRef(null);
@@ -38,7 +38,7 @@ function Mobile_navbar() {
   };
 
   const handleClickMenuItem = () => {
-    setIsOpen(false); // Закрыть меню при нажатии на пункт меню
+    setIsOpen(false);
   };
 
   useEffect(() => {
@@ -63,7 +63,7 @@ function Mobile_navbar() {
         </button>
       )}
       <div className='mobile_title'>Ski Tim
-        <div className='personal_coach'>персональный тренер</div>
+        <div className='personal_coach'><Trans i18nKey="personal_coach" /></div>
       </div>
 
       <img src={logo} className='mobile_logo' alt="Логотип" />

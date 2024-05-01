@@ -5,8 +5,10 @@ import './mobile_contacts.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp, faTelegram, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import logo from '../../assets/logo.png';
+import { Trans, useTranslation } from 'react-i18next';
 
 function Mobile_Contacts() {
+  const { t } = useTranslation();
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
@@ -25,14 +27,14 @@ function Mobile_Contacts() {
   return (
     <div className='m_contact_container'>
       <div id='m_contacts_en'>
-        <div className='m_contact_me'>Связаться</div>
+        <div className='m_contact_me'><Trans i18nKey="button_contact" /></div>
         {sent ? (
           <p>Thank you for your message! We'll get back to you soon.</p>
         ) : (
           <form onSubmit={handleSubmit} className="form-group">
             <div>
               <input id="m_Name_textarea_en" type="text" value={name} onChange={(e) => setName(e.target.value)}
-                placeholder="Имя" required />
+                placeholder={t("contact_name")} required />
             </div>
             <div >
               <input id="m_Email_textarea_en" type="email" value={email} onChange={(e) => setEmail(e.target.value)}
@@ -40,17 +42,17 @@ function Mobile_Contacts() {
             </div>
             <div>
               <textarea id="m_Message_textarea_en" value={message} onChange={(e) => setMessage(e.target.value)}
-                placeholder="Сообщение" required />
+                placeholder={t("contact_message")} required />
             </div>
             <div className="m_button-sent-container_en">
-              <button type="submit" id='m_button_send_en'>Отправить</button>
+              <button type="submit" id='m_button_send_en'>{t("button_send")}</button>
             </div>
           </form>
         )}
       </div>
       <div className='m_contact_final_description_en'>
         <div className='m_contact_final_description_text1_en'>
-        Наслаждайся тренировками вместе со мной!
+        {t("enjoy_training")}
         </div>
         <div className='m_icons'>
           <a id='Whatsapp' href="https://api.whatsapp.com/send?phone=+41765444634" target="_blank" rel="noopener noreferrer">

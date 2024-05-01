@@ -6,8 +6,8 @@ import { Trans, useTranslation } from 'react-i18next';
 
 
 function Navbar() {
-    const [selectedLanguage, setSelectedLanguage] = useState('en'); // Используем состояние для отслеживания выбранного языка
     const { i18n } = useTranslation();
+    const [selectedLanguage, setSelectedLanguage] = useState('en'); // Используем состояние для отслеживания выбранного языка
 
     const navItems = [
         { text: <Trans i18nKey="nav_bar_home" />, to: "/", type: "page" },
