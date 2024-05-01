@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import './navbar.css';
 import logo from '../../assets/logo.png';
 import { Link } from 'react-router-dom';
-import { useTranslation } from 'react-i18next';
+import { Trans, useTranslation } from 'react-i18next';
 
 
 function Navbar() {
@@ -10,10 +10,10 @@ function Navbar() {
     const { i18n } = useTranslation();
 
     const navItems = [
-        { text: "Домой", to: "/", type: "page" },
-        { text: "Тренировки", to: "/Training_page", type: "page" },
-        { text: "Цены", href: "#price_en", type: "container" },
-        { text: "Связаться", href: "#contacts_en", type: "container" }
+        { text: <Trans i18nKey="nav_bar_home" />, to: "/", type: "page" },
+        { text: <Trans i18nKey="nav_bar_training" />, to: "/Training_page", type: "page" },
+        { text: <Trans i18nKey="nav_bar_price" />, href: "#price_en", type: "container" },
+        { text: <Trans i18nKey="nav_bar_contact" />, href: "#contacts_en", type: "container" }
     ];
 
     const scrollToComponent = (href) => {

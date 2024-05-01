@@ -15,15 +15,15 @@ const About = () => {
       </video>
       <h1><Trans i18nKey="Home_welcome" /></h1>
       <div className='my_info'>
-        <li> Персональный тренер по лыжным гонкам, силовому треннингу, лыжероллерам и трейлраннингу</li>
-        <li> Более 20 лет опыта в лыжных гонках</li>
-        <li> Более 30 марафонов по всей Европе. Бронзовый призер La Diagonela 2024 среди любителей. Топ 10 в марафонах Euroloppet и Visma Ski Classics Challengers</li>
-        <li> Подготовка с нуля до марафона</li>
+        <li><Trans i18nKey="about_1line" /></li>
+        <li><Trans i18nKey="about_2line" /></li>
+        <li><Trans i18nKey="about_3line" /></li>
+        <li><Trans i18nKey="about_4line" /></li>
       </div>
       <div className='my_info_more'>
-      <p>Увлекательные тренировки в красивейших местах Швейцарии на немецком, английском или русском языках.</p>
-        <p>Выбирайте то, что вам нравится: лыжные гонки, хайкинг, силовой тренинг, трейлраннинг, а я принесу вам хорошее настроение, энергию, швейцарское качество тренировок и результат в любое время года. </p>
-        <p>Присоединяйся!</p>
+      <p><Trans i18nKey="about_description1" /></p>
+        <p><Trans i18nKey="about_description2"/> </p>
+        <p><Trans i18nKey="about_description3" /></p>
           </div>
     </div>
 
