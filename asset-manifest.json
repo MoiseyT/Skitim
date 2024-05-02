@@ -1,13 +1,9 @@
 {
   "files": {
-    "main.css": "/Skitim/static/css/main.917870ca.css",
-    "main.js": "/Skitim/static/js/main.4842cd38.js",
+    "main.css": "/Skitim/static/css/main.2c8953e2.css",
+    "main.js": "/Skitim/static/js/main.8b98b6ed.js",
     "static/media/Preview.mp4": "/Skitim/static/media/Preview.b3b8ba2ad4eb4add537c.mp4",
     "static/media/Training_img.png": "/Skitim/static/media/Training_img.211e74f5cdf7d7f31859.png",
-    "static/media/Plan_img.png": "/Skitim/static/media/Plan_img.1163030036c8cb562f0d.png",
-    "static/media/Amature.png": "/Skitim/static/media/Amature.d7549e3e1ae89f4463d4.png",
-    "static/media/Profi.png": "/Skitim/static/media/Profi.5f109526b98a7af06334.png",
-    "static/media/Semiprofi.png": "/Skitim/static/media/Semiprofi.c99b1a48145be579c150.png",
     "static/media/About.jpg": "/Skitim/static/media/About.d5cedeec3029d4de983c.jpg",
     "static/media/Summer.png": "/Skitim/static/media/Summer.49d5ae12b69561ff5a38.png",
     "static/media/Spring.png": "/Skitim/static/media/Spring.565fa2d39eb676bf5c13.png",
@@ -29,11 +25,11 @@
     "static/media/Connection.png": "/Skitim/static/media/Connection.f73a2d3bb78672c1504a.png",
     "static/media/Snow_tree.png": "/Skitim/static/media/Snow_tree.0b6587e081622aee76bd.png",
     "index.html": "/Skitim/index.html",
-    "main.917870ca.css.map": "/Skitim/static/css/main.917870ca.css.map",
-    "main.4842cd38.js.map": "/Skitim/static/js/main.4842cd38.js.map"
+    "main.2c8953e2.css.map": "/Skitim/static/css/main.2c8953e2.css.map",
+    "main.8b98b6ed.js.map": "/Skitim/static/js/main.8b98b6ed.js.map"
   },
   "entrypoints": [
-    "static/css/main.917870ca.css",
-    "static/js/main.4842cd38.js"
+    "static/css/main.2c8953e2.css",
+    "static/js/main.8b98b6ed.js"
   ]
 }
