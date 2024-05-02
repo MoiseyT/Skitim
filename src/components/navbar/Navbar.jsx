@@ -1,13 +1,31 @@
-import React, {useState} from 'react';
+import React, { useState, useEffect } from 'react';
 import './navbar.css';
 import logo from '../../assets/logo.png';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom'; // Импортируем хук useLocation
 import { Trans, useTranslation } from 'react-i18next';
-
 
 function Navbar() {
     const { i18n } = useTranslation();
-    const [selectedLanguage, setSelectedLanguage] = useState('en'); // Используем состояние для отслеживания выбранного языка
+    const location = useLocation(); // Получаем текущее местоположение
+
+    // Получаем язык из текущего пути
+    const langFromPath = location.pathname.split('/')[1];
+
+    // Получаем выбранный язык из i18n или из текущего пути
+    const [selectedLanguage, setSelectedLanguage] = useState(langFromPath || i18n.language || 'en');
+
+    useEffect(() => {
+        // Обновляем выбранный язык при изменении языка
+        setSelectedLanguage(i18n.language);
+    }, [i18n.language]);
+
+    useEffect(() => {
+        // Обновляем выбранный язык при изменении текущего пути
+        const langFromPath = location.pathname.split('/')[1];
+        if (['en', 'de', 'ru'].includes(langFromPath)) {
+            setSelectedLanguage(langFromPath);
+        }
+    }, [location.pathname]);
 
     const navItems = [
         { text: <Trans i18nKey="nav_bar_home" />, to: "/", type: "page" },
@@ -31,12 +49,12 @@ function Navbar() {
     return (
         <div className="navbar">
             <div className="center-logo">
-                <img src={logo} alt="Logo" />
+                <img src={logo} alt="Логотип" />
             </div>
             {navItems.map((item, index) => (
                 <div key={index} className="nav-item">
                     {item.type === "page" ? (
-                        <Link to={item.to} className="nav-button">
+                        <Link to={item.to} className={`nav-button ${location.pathname === item.to ? 'selected' : ''}`}>
                             {item.text}
                         </Link>
                     ) : (
@@ -59,3 +77,4 @@ function Navbar() {
 }
 
 export default Navbar;
+
