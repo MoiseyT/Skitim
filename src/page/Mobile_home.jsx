@@ -4,6 +4,7 @@ import './App.css';
 import './mobile_home.css';
 import Preview from '../assets/Preview.mp4';
 import { Trans, useTranslation } from 'react-i18next';
+import { Helmet } from 'react-helmet';
 
 export function Mobile_home() {
   const { t } = useTranslation();
@@ -13,7 +14,11 @@ export function Mobile_home() {
 
   return (
     <div className='mobile_home'>
-      <title>Уникальный заголовок страницы</title>
+      <Helmet>
+        <title>{t("title_home")}</title>
+        <meta name="description" content={t( "description_home")} />
+        <meta name="keywords" content={t( "key_words_home")} />
+      </Helmet>
       <Mobile_ScrollToTopButton />
       <Mobile_navbar />
       <video className="video-mobile" id='m_home_en' width='350' height='500' controls autoPlay >

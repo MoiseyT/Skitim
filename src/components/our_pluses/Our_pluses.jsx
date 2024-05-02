@@ -14,31 +14,31 @@ function Our_pluses() {
         <div className="grid-container">
             <div className="grid-row">
                 <div className="grid-item">
-                    <img src={Longpartnership} alt="Icon1" className="icon" />
+                    <img src={Longpartnership} alt="Training_advantage" className="icon" />
                     <div className="text">{t("adv_block1")}</div>
                 </div>
                 <div className="grid-item">
-                    <img src={Planning} alt="Icon1" className="icon" />
+                    <img src={Planning} alt="Training_advantage" className="icon" />
                     <div className="text">
                     {t("adv_block2")}
                     </div>
                 </div>
                 <div className="grid-item">
-                    <img src={Connection} alt="Icon1" className="icon" />
+                    <img src={Connection} alt="Training_advantage" className="icon" />
                     <div className="text">{t("adv_block3")}</div>
                 </div>
             </div>
             <div className="grid-row">
                 <div className="grid-item">
-                    <img src={Variability} alt="Icon1" className="icon" />
+                    <img src={Variability} alt="Training_advantage" className="icon" />
                     <div className="text">{t("adv_block4")}</div>
                 </div>
                 <div className="grid-item">
-                    <img src={Smile} alt="Icon1" className="icon" />
+                    <img src={Smile} alt="Training_advantage" className="icon" />
                     <div className="text">{t("adv_block5")}</div>
                 </div>
                 <div className="grid-item">
-                    <img src={World_map} alt="Icon1" className="icon" />
+                    <img src={World_map} alt="Training_advantage" className="icon" />
                     <div className="text">{t("adv_block6")}</div>
                 </div>
             </div>

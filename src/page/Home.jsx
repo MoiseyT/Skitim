@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { About, Navbar, Training, Prices, Contacts, ScrollToTopButton, Footer } from '../components';
 import './App.css';
 import { Trans, useTranslation } from 'react-i18next';
+import { Helmet } from 'react-helmet';
 
 export function Home() {
   const { t } = useTranslation();
@@ -12,7 +13,11 @@ export function Home() {
 
   return (
       <div className='home'>
-        <title>Уникальный заголовок страницы</title>
+        <Helmet>
+        <title>{t("title_home")}</title>
+        <meta name="description" content={t( "description_home")} />
+        <meta name="keywords" content={t( "key_words_home")} />
+      </Helmet>
         <ScrollToTopButton />
         <Navbar />
         <About />

@@ -9,7 +9,7 @@ const About = () => {
 
   return (
     <div class="container" id="about">
-      <img src={About_img} alt="About_training" />
+      <img src={About_img} alt="Video_personal_training" />
       <video className="video-container" width='350' height='500' controls autoPlay >
         <source src={Preview} type="video/mp4" />
       </video>

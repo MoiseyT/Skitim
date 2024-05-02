@@ -66,7 +66,7 @@ function Mobile_navbar() {
         <div className='personal_coach'><Trans i18nKey="personal_coach" /></div>
       </div>
 
-      <img src={logo} className='mobile_logo' alt="Логотип" />
+      <img src={logo} className='mobile_logo' alt="SkiTim_logo" />
       <div className={`menu-content ${isOpen ? 'show' : ''}`}>
         <button className="close-button" onClick={toggleMenu}>
           <FaTimes size={25} /> 

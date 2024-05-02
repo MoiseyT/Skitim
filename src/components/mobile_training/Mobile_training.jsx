@@ -13,32 +13,32 @@ const Training = () => {
   return (
     <div className="m_container_training" id="m_container_training">
       <div className="m_image-container" id="m_image-container">
-        <img src={Mobile_training} alt="About_img" />
+        <img src={Mobile_training} alt="About_training_img" />
       </div>
       <div className="m_training-grid">
         <div className="m_training-item">
-          <img src={Snow_tree} alt="Icon1" className="m_training-icon" />
+          <img src={Snow_tree} alt="winter_training" className="m_training-icon" />
           <div className="m_training_text">
           <Trans i18nKey="training_block1"/>
             <p><Trans i18nKey="training_block2"/></p>
           </div>
         </div>
         <div className="m_training-item">
-          <img src={Trail_running} alt="Icon1" className="m_training-icon" />
+          <img src={Trail_running} alt="Spring_training" className="m_training-icon" />
           <div className="m_training_text">
           <Trans i18nKey="training_block3"/>
             <p><Trans i18nKey="training_block4"/></p>
           </div>
         </div>
         <div className="m_training-item">
-          <img src={Gears} alt="Icon1" className="m_training-icon" />
+          <img src={Gears} alt="Summer_training" className="m_training-icon" />
           <div className="m_training_text">
           <Trans i18nKey="training_block5"/>
             <p><Trans i18nKey="training_block6"/></p>
           </div>
         </div>
         <div className="m_training-item">
-          <img src={Stairs} alt="Icon1" className="m_training-icon" />
+          <img src={Stairs} alt="Autumn_training" className="m_training-icon" />
           <div className="m_training_text">
           <Trans i18nKey="training_block7"/>
             <p><Trans i18nKey="training_block8"/></p>

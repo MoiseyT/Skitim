@@ -66,7 +66,7 @@ function Mobile_Contacts() {
           </a>
         </div>
         <div className="m_center-logo-bottom">
-          <img id = 'logo_contact' src={logo} alt="Logo" />
+          <img id = 'logo_contact' src={logo} alt="SkiTim_Logo" />
         </div></div>
     </div>
   );

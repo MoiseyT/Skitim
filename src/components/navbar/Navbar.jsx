@@ -49,7 +49,7 @@ function Navbar() {
     return (
         <div className="navbar">
             <div className="center-logo">
-                <img src={logo} alt="Логотип" />
+                <img src={logo} alt="SkiTim_logo" />
             </div>
             {navItems.map((item, index) => (
                 <div key={index} className="nav-item">

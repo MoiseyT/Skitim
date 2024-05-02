@@ -55,7 +55,7 @@ const Slideshow = ({ imgs, Icones, texts }) => {
 
   return (
     <div className="slideshow">
-      <img className="mainImg" src={imgs[index]} alt={`Image ${index}`} />
+      <img className="mainImg" src={imgs[index]} alt={`Training_season ${index}`} />
       <span style={{ whiteSpace: 'pre-line' }} className="image-text">{texts[index]}</span>
       <div className="actions">
         <button onClick={prev}>&#10094;</button>

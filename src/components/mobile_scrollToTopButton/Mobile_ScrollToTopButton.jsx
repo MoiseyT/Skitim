@@ -5,7 +5,6 @@ function Mobile_ScrollToTopButton() {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    // Показать кнопку, когда пользователь прокручивает страницу на определенную высоту
     const toggleVisibility = () => {
       if (window.scrollY > 300 && !isVisible) {
         setIsVisible(true);

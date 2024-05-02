@@ -14,7 +14,7 @@ const Training = () => {
   return (
     <div class="container_training" id="container_training" >
       <div className="image-container" id="image-container">
-        <img src={Training_img} alt="About_img" />
+        <img src={Training_img} alt="About_Training_img" />
         <div className="button-container">
           <Link to="/Training_page">
             <button className='training_button'>

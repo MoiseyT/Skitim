@@ -65,7 +65,7 @@ function Contacts() {
           </a>
         </div>
         <div className="center-logo-bottom">
-          <img src={logo} alt="Logo" />
+          <img src={logo} alt="SkiTim_Logo" />
         </div></div>
     </div>
   );
